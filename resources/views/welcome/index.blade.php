@@ -1,13 +1,18 @@
 <x-guest-layout>
-    <div class="flex flex-col bg-gradient-to-r from-zinc-100 to-sky-300 animate-gradient-x h-screen">
-        @include('layouts.header', ['showLinks' => true])
-        @include('welcome.main')
+    <div class="flex flex-col bg-gradient-to-r {{ config('laravel-welcome-page.gradient_from') }} {{ config('laravel-welcome-page.gradient_to') }} animate-gradient-x h-screen">
+        @include(config('laravel-welcome-page.header_path'), ['showLinks' => true])
+        @include('laravel-welcome-page::welcome.main')
     </div>
 
-    @include('welcome.how-it-works')
-    @include('welcome.call-to-action')
-    @include('welcome.testimonials')
-    @include('welcome.pricing')
-    @include('welcome.faq')
-    @include('layouts.footer')
+    @if (config('laravel-welcome-page.show_how_it_works_section'))
+        @include('laravel-welcome-page::welcome.how-it-works')
+    @endif
+    @if (config('laravel-welcome-page.show_call_to_action_section'))
+        @include('laravel-welcome-page::welcome.call-to-action')
+    @endif
+    @include('laravel-welcome-page::welcome.testimonials')
+    @include('laravel-welcome-page::welcome.pricing')
+    @include('laravel-welcome-page::welcome.faq')
+
+    @include(config('laravel-welcome-page.footer_path'))
 </x-guest-layout>

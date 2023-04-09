@@ -3,24 +3,28 @@
     class="py-24 bg-white"
 >
     <div class="container px-4 max-w-7xl mx-auto">
-        <div class="text-center space-y-5 mb-20">
+        <div class="text-center space-y-2 mb-20">
             <h2 class="text-5xl sm:text-6xl md:text-7xl font-bold font-heading tracking-px-n leading-none">
-                {{ __('welcome.How it works?') }}
+                {{ __('laravel-welcome-page::laravel-welcome-page.how_it_works_title') }}
             </h2>
             <p class="text-gray-400 font-medium text-xl leading-relaxed">
-                {{ __('welcome.Start Your Story Estimates in 3 Easy Steps') }}
+                {{ __('laravel-welcome-page::laravel-welcome-page.how_it_works_subtitle') }}
             </p>
         </div>
         <div class="flex flex-wrap md:-m-3">
             <div class="w-full md:w-1/3 mb-32 md:p-3">
                 <div class="pt-11 text-center bg-gray-100 h-96 rounded-3xl">
                     <div class="px-5">
-                        <h3 class="mb-3 text-4xl font-bold font-heading leading-normal">{{ __('welcome.Create a game') }}</h3>
-                        <p class="mb-10 text-gray-400 font-medium leading-relaxed">{!! __('welcome.Start new game right now') !!}</p>
+                        <h3 class="mb-3 text-4xl font-bold font-heading leading-normal">
+                            {{ __('laravel-welcome-page::laravel-welcome-page.how_it_works_step_1_title') }}
+                        </h3>
+                        <p class="mb-10 text-gray-400 font-medium leading-relaxed">
+                            {!! __('laravel-welcome-page::laravel-welcome-page.how_it_works_step_1_text') !!}
+                        </p>
                     </div>
                     <img
                         class="mx-auto h-48 object-cover rounded-3xl transform hover:translate-y-3 transition ease-in-out duration-1000"
-                        src="{{ asset('images/pp/businessmans-hand-holding-question-mark-ai.png') }}"
+                        src="{{ asset(config('laravel-welcome-page.how_it_works_step_1_image')) }}"
                         alt="businessmans hand holding question mark"
                         loading="lazy"
                     >
@@ -29,12 +33,16 @@
             <div class="w-full md:w-1/3 mb-32 md:p-3">
                 <div class="pt-11 text-center bg-gray-100 h-96 rounded-3xl">
                     <div class="px-5">
-                        <h3 class="mb-3 text-4xl font-bold font-heading leading-normal">{{ __('welcome.Invite a team') }}</h3>
-                        <p class="mb-10 text-gray-400 font-medium leading-relaxed">{{ __('welcome.Share your game’s unique link') }}</p>
+                        <h3 class="mb-3 text-4xl font-bold font-heading leading-normal">
+                            {{ __('laravel-welcome-page::laravel-welcome-page.how_it_works_step_2_title') }}
+                        </h3>
+                        <p class="mb-10 text-gray-400 font-medium leading-relaxed">
+                            {!! __('laravel-welcome-page::laravel-welcome-page.how_it_works_step_2_text') !!}
+                        </p>
                     </div>
                     <img
                         class="mx-auto h-48 object-cover rounded-3xl transform hover:translate-y-3 transition ease-in-out duration-1000"
-                        src="{{ asset('images/pp/hand-of-postman-putting-letter-or-envelope-into-open-mailbox-ai.png') }}"
+                        src="{{ asset(config('laravel-welcome-page.how_it_works_step_2_image')) }}"
                         alt="hand of postman putting letter into open mailbox"
                         loading="lazy"
                     >
@@ -43,12 +51,16 @@
             <div class="w-full md:w-1/3 mb-32 md:p-3">
                 <div class="pt-11 text-center bg-gray-100 h-96 rounded-3xl">
                     <div class="px-5">
-                        <h3 class="mb-3 text-4xl font-bold font-heading leading-normal">{{ __('welcome.Vote') }}</h3>
-                        <p class="mb-10 text-gray-400 font-medium leading-relaxed">{{ __('welcome.Play scrum poker online') }}</p>
+                        <h3 class="mb-3 text-4xl font-bold font-heading leading-normal">
+                            {{ __('laravel-welcome-page::laravel-welcome-page.how_it_works_step_3_title') }}
+                        </h3>
+                        <p class="mb-10 text-gray-400 font-medium leading-relaxed">
+                            {!! __('laravel-welcome-page::laravel-welcome-page.how_it_works_step_3_text') !!}
+                        </p>
                     </div>
                     <img
                         class="mx-auto h-48 object-cover rounded-3xl transform hover:translate-y-3 transition ease-in-out duration-1000"
-                        src="{{ asset('images/pp/hand-taking-tissue-out-of-box.png') }}"
+                        src="{{ asset(config('laravel-welcome-page.how_it_works_step_3_image')) }}"
                         alt="screen"
                         loading="lazy"
                     >

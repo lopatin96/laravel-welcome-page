@@ -2,15 +2,15 @@
     <div class="relative overflow-hidden max-w-6xl h-full mx-auto">
         <div class="flex items-center justify-center h-full">
             <div class="w-full md:w-3/4 p-8 mb-20">
-                <div class="inline-block mb-6 px-2 py-1 font-semibold bg-sky-200 hover:bg-sky-100 rounded-full transition ease-in-out duration-700">
+                <div class="inline-block mb-6 px-2 py-1 font-semibold opacity-90 hover:opacity-75 {{ config('laravel-welcome-page.bg_color_secondary') }} rounded-full transition ease-in-out duration-700">
                     <span
                         class="try-now flex flex-wrap items-center -m-1 text-sm cursor-pointer"
                     >
                         <a
-                            href="{{ route('register') }}"
+                            href="{{ config('laravel-welcome-page.main_section_main_section_upper_title_path') }}"
                             class="w-auto p-1"
                         >
-                            {{ __('welcome.Try now') }}
+                            {{ __('laravel-welcome-page::laravel-welcome-page.main_section_upper_title') }}
                         </a>
                         <div class="w-auto p-1">
                             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,37 +21,47 @@
                 </div>
                 <h1 class="mb-6 text-3xl md:text-3xl lg:text-4xl font-extrabold font-heading">
                     <span class="bg-black text-white text-5xl md:text-6xl lg:text-6xl">
-                        <span class="relative z-30">{!! __('welcome.Scrum') !!}</span>
-                        <span class="relative z-20">{{ __('welcome.Poker') }}</span><br>
+                        <span class="relative z-10">
+                            {!! __('laravel-welcome-page::laravel-welcome-page.main_section_title') !!}
+                        </span><br>
                     </span>
-                    <span class="bg-black text-white">{{ __('welcome.for') }} @include('components.typed')</span>
+                    <span class="bg-black text-white">
+                        {{ __('laravel-welcome-page::laravel-welcome-page.main_section_for') }}
+                        @include('laravel-welcome-page::welcome.typed')
+                    </span>
                 </h1>
                 <p class="mb-10 md:mb-24 text-lg md:max-w-md selection:bg-black selection:text-white">
-                    {{ __('welcome.Estimating the complexity and volume of tasks has never been so trivially simple and enjoyable.') }}
+                    {{ __('laravel-welcome-page::laravel-welcome-page.main_section_text') }}
                 </p>
                 <div class="flex flex-col sm:flex-row space-y-5 sm:space-y-0 items-center">
                     <a
-                        href="{{ route('register') }}"
-                        class="inline-block md:w-96 text-center py-4 px-6 w-full text-white font-semibold rounded-xl focus:ring focus:outline-none focus:ring-red-300 bg-red-500 hover:bg-red-600 transition ease-in-out duration-200 select-none"
+                        href="{{ config('laravel-welcome-page.main_section_primary_button_path') }}"
+                        class="inline-block md:w-96 text-center py-4 px-6 w-full text-white font-semibold rounded-xl focus:ring focus:outline-none focus:ring-red-300 opacity-90 hover:opacity-100 {{ config('laravel-welcome-page.main_button_color') }} transition ease-in-out duration-200 select-none"
                     >
-                        {{ __('welcome.Start new game') }}
+                        {{ __('laravel-welcome-page::laravel-welcome-page.main_section_primary_button_text') }}
                     </a>
                     <a
-                        href="{{ route('register') }}"
+                        href="{{ config('laravel-welcome-page.main_section_secondary_button_path') }}"
                         class="text-center sm:text-left cursor-pointer try-now py-4 px-9 w-full font-semibold hover:underline transition ease-in-out duration-200 select-none"
                     >
-                        {{ __('welcome.Create an account') }}
+                        {{ __('laravel-welcome-page::laravel-welcome-page.main_section_secondary_button_text') }}
                     </a>
                 </div>
             </div>
             <div class="hidden sm:block relative w-full md:w-1/4 p-8">
                 <lottie-player
-                    src="{{ asset('images/card-game.json') }}"
+                    src="{{ asset(config('laravel-welcome-page.main_section_lottie_src')) }}"
                     background="transparent"
-                    speed="0.5"
+                    speed="{{ config('laravel-welcome-page.main_section_lottie_speed') }}"
                     loop
                     autoplay
-                    style="width: 550px; height: 550px; position: absolute; top: -200px; right: 10px;"
+                    style="
+                        width: {{ config('laravel-welcome-page.main_section_lottie_width') }}px;
+                        height: {{ config('laravel-welcome-page.main_section_lottie_height') }}px;
+                        position: absolute;
+                        top: {{ config('laravel-welcome-page.main_section_lottie_top') }}px;
+                        right: {{ config('laravel-welcome-page.main_section_lottie_right') }}px;
+                    "
                 ></lottie-player>
             </div>
         </div>

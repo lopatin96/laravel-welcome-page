@@ -1,6 +1,6 @@
 <?php
 
-namespace Atin\LaravelBlog\Http\Controllers;
+namespace Atin\LaravelWelcomePage\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
