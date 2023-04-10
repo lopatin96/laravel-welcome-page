@@ -16,13 +16,7 @@ return [
 
     'main_button_color' => 'bg-red-500',
 
-    // Sections
-    'show_how_it_works_section' => true,
-    'show_call_to_action_section' => true,
-    'show_testimonials_section' => true,
-    'show_pricing_section' => true,
-    'show_faq_section' => true,
-
+    // sections
     'sections' => [
         'main' => 'v1',
         'others' => [
@@ -51,7 +45,7 @@ return [
     'how_it_works-v1_step_2_image' => '<images/...png>',
     'how_it_works-v1_step_3_image' => '<images/...png>',
 
-    // Call to action
-    'call_to_action_primary_button_path' => '/register',
-    'call_to_action_secondary_button_path' => 'mailto:' . config('mail.support'),
+    // call-to-action-v1
+    'call_to_action-v1_primary_button_path' => '/register',
+    'call_to_action-v1_secondary_button_path' => 'mailto:' . config('mail.support'),
 ];
