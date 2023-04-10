@@ -7,11 +7,17 @@
     @if (config('laravel-welcome-page.show_how_it_works_section'))
         @include('laravel-welcome-page::welcome.how-it-works')
     @endif
+
     @if (config('laravel-welcome-page.show_call_to_action_section'))
         @include('laravel-welcome-page::welcome.call-to-action')
     @endif
-    @include('laravel-welcome-page::welcome.testimonials')
+
+    @if (config('laravel-welcome-page.show_testimonials_section'))
+        @include('laravel-welcome-page::welcome.testimonials')
+    @endif
+
     @include('laravel-welcome-page::welcome.pricing')
+
     @include('laravel-welcome-page::welcome.faq')
 
     @include(config('laravel-welcome-page.footer_path'))

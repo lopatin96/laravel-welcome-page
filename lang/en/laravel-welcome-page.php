@@ -35,4 +35,17 @@ return [
     'call_to_action_primary_button_text' => 'Start a new game for free',
     'call_to_action_secondary_button_text' => 'Book a call',
 
+    // Testimonials
+    'testimonials_title' => 'Customers love Planning Poker',
+
+    'testimonials_testimonial_1_title' => 'I love Planning Poker',
+    'testimonials_testimonial_1_text' => 'I have been using Planning Poker for our agile development team and it has been a great success. It’s easy to use, provides great visibility into the estimation process, and helps us create better estimates faster than ever before. I would highly recommend it to any agile development team!',
+    'testimonials_testimonial_1_author' => 'Margaret Green - Tech Lead',
+    'testimonials_testimonial_2_title' => 'A great tool for teams of all sizes',
+    'testimonials_testimonial_2_text' => 'I recently started using Planning Poker and it has been a real game changer for our team. We can now rapidly estimate issues in real-time, and get valuable feedback from other members without having to wait for lengthy meetings. The process of voting is also very intuitive and straightforward, making it a great tool for teams of all sizes.',
+    'testimonials_testimonial_2_author' => 'Jeffrey Barnes - CEO',
+    'testimonials_testimonial_3_title' => 'Easy to use and integrates',
+    'testimonials_testimonial_3_text' => 'Planning Poker has been an excellent addition to our JIRA workflow. It’s easy to use and integrates seamlessly with our project management system. We no longer have to worry about manually adding up hours spent on tasks — Planning Poker does it for us!',
+    'testimonials_testimonial_3_author' => 'Erica Parker - Project Manager',
+
 ];
