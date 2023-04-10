@@ -9,7 +9,9 @@ return [
     'gradient_to' => 'to-sky-300',
 
     'text_color_primary' => 'text-sky-600',
+    'text_color_primary_hex' => '#0284c7',
     'text_color_secondary' => 'text-sky-300',
+    'text_color_secondary_hex' => '#7dd3fc',
 
     'bg_color_primary' => 'bg-sky-600',
     'bg_color_secondary' => 'bg-sky-300',
@@ -20,11 +22,11 @@ return [
     'sections' => [
         'main' => 'v1',
         'others' => [
-            'how-it-works' => 'v1',
-            'call-to-action' => 'v1',
-            'testimonials' => 'v1',
-            'pricing' => 'v1',
-            'faq' => 'v1',
+//            'how-it-works' => 'v1',
+//            'call-to-action' => 'v1',
+//            'testimonials' => 'v1',
+            'pricing' => 'v2',
+//            'faq' => 'v1',
         ]
     ],
 
@@ -49,6 +51,6 @@ return [
     'call_to_action-v1_primary_button_path' => '/register',
     'call_to_action-v1_secondary_button_path' => 'mailto:' . config('mail.support'),
 
-    // pricing-v1
-    'pricing-v1_button_path' => '/billing'
+    // pricing
+    'pricing_button_path' => '/billing'
 ];

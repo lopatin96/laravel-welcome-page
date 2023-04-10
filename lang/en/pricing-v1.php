@@ -5,6 +5,7 @@ return [
     'title' => 'title',
     'subtitle' => 'subtitle',
     'text' => 'text',
+
     'card_features' => 'card_features',
     'card_upper_title' => 'card_upper_title',
     'card_title' => 'card_title',
