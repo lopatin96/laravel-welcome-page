@@ -21,6 +21,7 @@ return [
     'show_call_to_action_section' => true,
     'show_testimonials_section' => true,
     'show_pricing_section' => true,
+    'show_faq_section' => true,
 
     // Main
     'main_section_main_section_upper_title_path' => '/register',
@@ -41,5 +42,5 @@ return [
 
     // Call to action
     'call_to_action_primary_button_path' => '/register',
-    'call_to_action_secondary_button_path' => 'mailto:' . config('mail.support', 'support@email.com'),
+    'call_to_action_secondary_button_path' => 'mailto:' . config('mail.support'),
 ];

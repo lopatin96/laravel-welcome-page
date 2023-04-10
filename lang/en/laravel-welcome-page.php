@@ -59,4 +59,13 @@ return [
     'pricing_card_billed' => 'Billed monthly',
     'pricing_card_button_text' => 'Start :days days free trial',
 
+    // FAQ
+    'faq_upper_title' => 'Have any questions?',
+    'faq_title' => 'Frequently Asked Questions',
+    'faq_contact_us' => 'Still have any questions? <a class="text-link font-bold" href="mailto::mailto">Contact Us</a>',
+
+    'faq_faq_1_question' => 'What is Planning Poker?',
+    'faq_faq_1_answer' => 'Planning Poker is an agile estimation technique used by teams of developers, project managers and tech leads to arrive at consensus-based estimates of effort quickly and accurately. It combines elements of scrum, user stories, and relative estimation to provide a structured approach to estimating software development tasks. By using cards with values or story points, team members are able to collaboratively come up with estimates that everyone can agree on.What is Planning Poker?',
+    'faq_faq_2_question' => 'Is it free? Can I use the service right now?',
+    'faq_faq_2_answer' => 'Oh, sure. Right now you can register for free and use the service for your needs. We also have a paid subscription that will expand the boundaries of using the service, for example, the limit on the number of active links will be removed and much more.',
 ];

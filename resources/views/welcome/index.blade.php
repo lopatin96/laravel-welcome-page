@@ -20,7 +20,9 @@
         @include('laravel-welcome-page::welcome.pricing')
     @endif
 
-    @include('laravel-welcome-page::welcome.faq')
+    @if (config('laravel-welcome-page.show_faq_section'))
+        @include('laravel-welcome-page::welcome.faq')
+    @endif
 
     @include(config('laravel-welcome-page.footer_path'))
 </x-guest-layout>
