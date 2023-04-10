@@ -26,7 +26,7 @@ return [
 //            'call-to-action' => 'v1',
 //            'testimonials' => 'v1',
             'pricing' => 'v2',
-//            'faq' => 'v1',
+            'faq' => 'v1',
         ]
     ],
 

@@ -4,7 +4,7 @@
 >
     <div class="relative container px-4 mx-auto">
         <div class="md:max-w-4xl mx-auto">
-            <p class="mb-7 text-sm text-sky-600 text-center font-semibold uppercase tracking-px">
+            <p class="mb-7 text-sm {{ config('laravel-welcome-page.text_color_primary') }} text-center font-semibold uppercase tracking-px">
                 {{ __('laravel-welcome-page::faq-v1.upper_title') }}
             </p>
             <h2 class="mb-16 text-4xl md:text-5xl xl:text-6xl text-center font-bold font-heading tracking-px-n leading-none">
