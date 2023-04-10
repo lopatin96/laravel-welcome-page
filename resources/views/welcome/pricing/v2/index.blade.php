@@ -44,8 +44,7 @@
                                     {{ __('laravel-welcome-page::pricing-v2.card_1_title') }}
                                 </span>
                                 <span class="text-gray-900">
-                                    ${{ config('spark.billables.user.plans.0.monthly_price') }}
-                                    {{ __('laravel-welcome-page::pricing-v2.card_1_per') }}
+                                    ${{ config('spark.billables.user.plans.0.monthly_price') }}{{ __('laravel-welcome-page::pricing-v2.card_1_per') }}
                                 </span>
                             </p>
                             <div class="md:inline-block">
@@ -91,8 +90,7 @@
                                     {{ __('laravel-welcome-page::pricing-v2.card_2_title') }}
                                 </span>
                                 <span class="text-gray-900">
-                                    ${{ config('spark.billables.user.plans.1.monthly_price') }}
-                                    {{ __('laravel-welcome-page::pricing-v2.card_2_per') }}
+                                    ${{ config('spark.billables.user.plans.1.monthly_price') }}{{ __('laravel-welcome-page::pricing-v2.card_2_per') }}
                                 </span>
                             </p>
                             <div class="md:inline-block">
