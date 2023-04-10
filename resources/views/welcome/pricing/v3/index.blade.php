@@ -2,7 +2,7 @@
     id="pricing"
     class="relative py-32 bg-white overflow-hidden"
 >
-    <span class="hidden absolute bg-radial-gradient-blue opacity-[.50] pointer-events-none lg:inline-flex right-[17%] top-[20px] w-[640px] h-[640px]"></span>
+    <span class="hidden absolute bg-radial-gradient-blue opacity-[.45] pointer-events-none lg:inline-flex right-[17%] top-[20px] w-[640px] h-[640px]"></span>
 
     <div class="container px-4 mx-auto">
         <div class="flex flex-wrap -m-8">
