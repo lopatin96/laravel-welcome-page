@@ -1,6 +1,6 @@
 <section
-    id="faq"
-    class="relative pt-24 pb-28 bg-gray-50 overflow-hidden"
+        id="faq"
+        class="relative pt-24 pb-28 bg-gray-50 overflow-hidden"
 >
     <div class="relative container px-4 mx-auto">
         <div class="md:max-w-4xl mx-auto">
@@ -12,13 +12,13 @@
             </h2>
 
             <div class="mb-11 flex flex-col space-y-4">
-                @include('laravel-welcome-page::welcome.faq-card', [
+                @include('laravel-welcome-page::welcome.faq.v1.faq-card', [
                     'open' => true,
                     'question' => 'laravel-welcome-page::laravel-welcome-page.faq_faq_1_question',
                     'answer' => 'laravel-welcome-page::laravel-welcome-page.faq_faq_1_answer',
                 ])
 
-                @include('laravel-welcome-page::welcome.faq-card', [
+                @include('laravel-welcome-page::welcome.faq.v1.faq-card', [
                     'open' => false,
                     'question' => 'laravel-welcome-page::laravel-welcome-page.faq_faq_2_question',
                     'answer' => 'laravel-welcome-page::laravel-welcome-page.faq_faq_2_answer',

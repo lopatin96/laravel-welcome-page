@@ -1,28 +1,12 @@
 <x-guest-layout>
     <div class="flex flex-col bg-gradient-to-r {{ config('laravel-welcome-page.gradient_from') }} {{ config('laravel-welcome-page.gradient_to') }} animate-gradient-x h-screen">
         @include(config('laravel-welcome-page.header_path'), ['showLinks' => true])
-        @include('laravel-welcome-page::welcome.main')
+        @include('laravel-welcome-page::welcome.main.' . config('laravel-welcome-page.sections.main') . '.index')
     </div>
 
-    @if (config('laravel-welcome-page.show_how_it_works_section'))
-        @include('laravel-welcome-page::welcome.how-it-works')
-    @endif
-
-    @if (config('laravel-welcome-page.show_call_to_action_section'))
-        @include('laravel-welcome-page::welcome.call-to-action')
-    @endif
-
-    @if (config('laravel-welcome-page.show_testimonials_section'))
-        @include('laravel-welcome-page::welcome.testimonials')
-    @endif
-
-    @if (config('laravel-welcome-page.show_pricing_section'))
-        @include('laravel-welcome-page::welcome.pricing')
-    @endif
-
-    @if (config('laravel-welcome-page.show_faq_section'))
-        @include('laravel-welcome-page::welcome.faq')
-    @endif
+    @foreach(config('laravel-welcome-page.sections.others') as $section => $variant)
+        @include("laravel-welcome-page::welcome.$section.$variant.index")
+    @endforeach
 
     @include(config('laravel-welcome-page.footer_path'))
 </x-guest-layout>

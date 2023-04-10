@@ -23,17 +23,28 @@ return [
     'show_pricing_section' => true,
     'show_faq_section' => true,
 
-    // Main
-    'main_section_main_section_upper_title_path' => '/register',
-    'main_section_primary_button_path' => '/register',
-    'main_section_secondary_button_path' => '/register',
+    'sections' => [
+        'main' => 'v1',
+        'others' => [
+            'how-it-works' => 'v1',
+            'call-to-action' => 'v1',
+            'testimonials' => 'v1',
+            'pricing' => 'v1',
+            'faq' => 'v1',
+        ]
+    ],
 
-    'main_section_lottie_src' => 'images/card-game.json',
-    'main_section_lottie_speed' => 0.75,
-    'main_section_lottie_width' => 550,
-    'main_section_lottie_height' => 550,
-    'main_section_lottie_top' => -200,
-    'main_section_lottie_right' => 10,
+    // main-v1
+    'main-v1_upper_title_path' => '/register',
+    'main-v1_primary_button_path' => '/register',
+    'main-v1_secondary_button_path' => '/register',
+
+    'main-v1_lottie_src' => '<images/card-game.json>',
+    'main-v1_lottie_speed' => 0.75,
+    'main-v1_lottie_width' => 550,
+    'main-v1_lottie_height' => 550,
+    'main-v1_lottie_top' => -200,
+    'main-v1_lottie_right' => 10,
 
     // How it works
     'how_it_works_step_1_image' => 'images/pp/businessmans-hand-holding-question-mark-ai.png',

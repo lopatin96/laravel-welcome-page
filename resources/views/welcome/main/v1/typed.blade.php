@@ -6,11 +6,11 @@
 <script>
     let options = {
         strings: [
-            '{{ __('laravel-welcome-page::laravel-welcome-page.main_section_typed_1') }}',
-            '{{ __('laravel-welcome-page::laravel-welcome-page.main_section_typed_2') }}',
-            '{{ __('laravel-welcome-page::laravel-welcome-page.main_section_typed_3') }}',
-            '{{ __('laravel-welcome-page::laravel-welcome-page.main_section_typed_4') }}',
-            '{{ __('laravel-welcome-page::laravel-welcome-page.main_section_typed_5') }}',
+            '{{ __('laravel-welcome-page::main-v1.typed_1') }}',
+            '{{ __('laravel-welcome-page::main-v1.typed_2') }}',
+            '{{ __('laravel-welcome-page::main-v1.typed_3') }}',
+            '{{ __('laravel-welcome-page::main-v1.typed_4') }}',
+            '{{ __('laravel-welcome-page::main-v1.typed_5') }}',
         ],
         typeSpeed: 50,
         smartBackspace: true,

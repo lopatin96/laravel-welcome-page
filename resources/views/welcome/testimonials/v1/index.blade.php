@@ -1,6 +1,6 @@
 <section
-    id="testimonials"
-    class="relative pt-24 pb-32 bg-white"
+        id="testimonials"
+        class="relative pt-24 pb-32 bg-white"
 >
     <span class="hidden absolute bg-radial-gradient-blue opacity-[.50] pointer-events-none lg:inline-flex left-[50%] top-[100px] w-[400px] h-[400px]"></span>
 
@@ -13,19 +13,19 @@
             </div>
         </div>
         <div class="flex flex-wrap -m-2">
-            @include('laravel-welcome-page::welcome.testimonial-card', [
+            @include('laravel-welcome-page::welcome.testimonials.v1.testimonial-card', [
                 'title' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_1_title',
                 'text' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_1_text',
                 'author' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_1_author',
             ])
 
-            @include('laravel-welcome-page::welcome.testimonial-card', [
+            @include('laravel-welcome-page::welcome.testimonials.v1.testimonial-card', [
                 'title' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_2_title',
                 'text' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_2_text',
                 'author' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_2_author',
             ])
 
-            @include('laravel-welcome-page::welcome.testimonial-card', [
+            @include('laravel-welcome-page::welcome.testimonials.v1.testimonial-card', [
                 'title' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_3_title',
                 'text' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_3_text',
                 'author' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_3_author',
