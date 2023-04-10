@@ -1,6 +1,6 @@
 <section
-        id="testimonials"
-        class="relative pt-24 pb-32 bg-white"
+    id="testimonials"
+    class="relative pt-24 pb-32 bg-white"
 >
     <span class="hidden absolute bg-radial-gradient-blue opacity-[.50] pointer-events-none lg:inline-flex left-[50%] top-[100px] w-[400px] h-[400px]"></span>
 
