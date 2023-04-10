@@ -8,27 +8,27 @@
         <div class="flex flex-wrap justify-between items-end -m-2 mb-12">
             <div class="w-auto p-2">
                 <h2 class="text-5xl md:text-6xl font-bold font-heading tracking-px-n leading-tight">
-                    {{ __('laravel-welcome-page::laravel-welcome-page.testimonials_title') }}
+                    {{ __('laravel-welcome-page::testimonials-v1.title') }}
                 </h2>
             </div>
         </div>
         <div class="flex flex-wrap -m-2">
             @include('laravel-welcome-page::welcome.testimonials.v1.testimonial-card', [
-                'title' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_1_title',
-                'text' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_1_text',
-                'author' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_1_author',
+                'title' => 'laravel-welcome-page::testimonials-v1.testimonial_1_title',
+                'text' => 'laravel-welcome-page::testimonials-v1.testimonial_1_text',
+                'author' => 'laravel-welcome-page::testimonials-v1.testimonial_1_author',
             ])
 
             @include('laravel-welcome-page::welcome.testimonials.v1.testimonial-card', [
-                'title' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_2_title',
-                'text' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_2_text',
-                'author' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_2_author',
+                'title' => 'laravel-welcome-page::testimonials-v1.testimonial_2_title',
+                'text' => 'laravel-welcome-page::testimonials-v1.testimonial_2_text',
+                'author' => 'laravel-welcome-page::testimonials-v1.testimonial_2_author',
             ])
 
             @include('laravel-welcome-page::welcome.testimonials.v1.testimonial-card', [
-                'title' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_3_title',
-                'text' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_3_text',
-                'author' => 'laravel-welcome-page::laravel-welcome-page.testimonials_testimonial_3_author',
+                'title' => 'laravel-welcome-page::testimonials-v1.testimonial_3_title',
+                'text' => 'laravel-welcome-page::testimonials-v1.testimonial_3_text',
+                'author' => 'laravel-welcome-page::testimonials-v1.testimonial_3_author',
             ])
         </div>
     </div>
