@@ -9,13 +9,13 @@
             <div class="w-full md:w-1/2 p-8">
                 <div class="md:max-w-md">
                     <h2 class="mb-16 lg:mb-52 text-6xl md:text-7xl font-bold font-heading tracking-px-n leading-none">
-                        {{ __('laravel-welcome-page::laravel-welcome-page.pricing_title') }}
+                        {{ __('laravel-welcome-page::pricing-v1.title') }}
                     </h2>
                     <h3 class="mb-6 text-3xl text-gray-900 font-bold">
-                        {{ __('laravel-welcome-page::laravel-welcome-page.pricing_subtitle') }}
+                        {{ __('laravel-welcome-page::pricing-v1.subtitle') }}
                     </h3>
                     <p class="font-sans text-lg text-gray-400 leading-relaxed">
-                        {{ __('laravel-welcome-page::laravel-welcome-page.pricing_text') }}
+                        {{ __('laravel-welcome-page::pricing-v1.text') }}
                     </p>
                 </div>
             </div>
@@ -23,7 +23,7 @@
                 <div class="md:max-w-md mx-auto overflow-hidden rounded-3xl shadow-xl">
                     <div class="p-9">
                         <span class="mb-7 inline-block text-sm text-gray-500 font-semibold uppercase tracking-px">
-                            {{ __('laravel-welcome-page::laravel-welcome-page.pricing_card_features') }}:
+                            {{ __('laravel-welcome-page::pricing-v1.card_features') }}:
                         </span>
                         <ul>
                             @foreach(config('spark.billables.user.plans.0.features') as $planFeature)
@@ -42,10 +42,10 @@
                         <div class="flex flex-wrap -m-8">
                             <div class="w-full sm:w-1/2 p-8">
                                 <span class="mb-2 inline-block text-sm text-gray-500 font-semibold uppercase tracking-px">
-                                    {{ __('laravel-welcome-page::laravel-welcome-page.pricing_card_upper_title') }}
+                                    {{ __('laravel-welcome-page::pricing-v1.card_upper_title') }}
                                 </span>
                                 <p class="text-gray-900 font-semibold leading-normal">
-                                    {{ __('laravel-welcome-page::laravel-welcome-page.pricing_card_title') }}
+                                    {{ __('laravel-welcome-page::pricing-v1.card_title') }}
                                 </p>
                             </div>
                             <div class="w-full sm:w-1/2 p-8">
@@ -55,19 +55,19 @@
                                             ${{ config('spark.billables.user.plans.0.monthly_price') }}
                                         </span>
                                         <span class="text-lg text-gray-500 leading-snug tracking-px-n">
-                                            {{ __('laravel-welcome-page::laravel-welcome-page.pricing_card_per') }}
+                                            {{ __('laravel-welcome-page::pricing-v1.card_per') }}
                                         </span>
                                     </p>
                                     <p class="font-medium text-gray-500 leading-relaxed">
-                                        {{ __('laravel-welcome-page::laravel-welcome-page.pricing_card_billed') }}
+                                        {{ __('laravel-welcome-page::pricing-v1.card_billed') }}
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="mt-9">
-                            <a href="/billing">
+                            <a href="{{ config('laravel-welcome-page.pricing-v1_button_path') }}">
                                 <button class="py-4 px-5 w-full text-white font-semibold rounded-xl focus:ring focus:ring-gray-500 bg-black hover:bg-gray-900 transition ease-in-out duration-200 select-none" type="button">
-                                    {{ __('laravel-welcome-page::laravel-welcome-page.pricing_card_button_text', ['days' => config('spark.billables.user.trial_days')]) }}
+                                    {{ __('laravel-welcome-page::pricing-v1.card_button_text', ['days' => config('spark.billables.user.trial_days')]) }}
                                 </button>
                             </a>
                         </div>

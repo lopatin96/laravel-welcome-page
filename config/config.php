@@ -48,4 +48,7 @@ return [
     // call-to-action-v1
     'call_to_action-v1_primary_button_path' => '/register',
     'call_to_action-v1_secondary_button_path' => 'mailto:' . config('mail.support'),
+
+    // pricing-v1
+    'pricing-v1_button_path' => '/billing'
 ];
