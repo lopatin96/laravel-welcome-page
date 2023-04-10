@@ -16,7 +16,9 @@
         @include('laravel-welcome-page::welcome.testimonials')
     @endif
 
-    @include('laravel-welcome-page::welcome.pricing')
+    @if (config('laravel-welcome-page.show_pricing_section'))
+        @include('laravel-welcome-page::welcome.pricing')
+    @endif
 
     @include('laravel-welcome-page::welcome.faq')
 

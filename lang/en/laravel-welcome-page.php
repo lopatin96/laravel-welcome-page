@@ -48,4 +48,15 @@ return [
     'testimonials_testimonial_3_text' => 'Planning Poker has been an excellent addition to our JIRA workflow. It’s easy to use and integrates seamlessly with our project management system. We no longer have to worry about manually adding up hours spent on tasks — Planning Poker does it for us!',
     'testimonials_testimonial_3_author' => 'Erica Parker - Project Manager',
 
+    // Pricing
+    'pricing_title' => 'No more limits!',
+    'pricing_subtitle' => 'Make the most of Planning Poker',
+    'pricing_text' => 'A monthly Pro Plan subscription removes all restrictions from you and provides even more convenience in use.',
+    'pricing_card_features' => 'Features included',
+    'pricing_card_upper_title' => 'Pro Package',
+    'pricing_card_title' => 'Best for Startups & Businesses',
+    'pricing_card_per' => 'per facilitator / mo',
+    'pricing_card_billed' => 'Billed monthly',
+    'pricing_card_button_text' => 'Start :days days free trial',
+
 ];

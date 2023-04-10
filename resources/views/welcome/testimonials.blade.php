@@ -8,7 +8,7 @@
         <div class="flex flex-wrap justify-between items-end -m-2 mb-12">
             <div class="w-auto p-2">
                 <h2 class="text-5xl md:text-6xl font-bold font-heading tracking-px-n leading-tight">
-                    {{ __('welcome.Customers love Planning Poker') }}
+                    {{ __('laravel-welcome-page::laravel-welcome-page.testimonials_title') }}
                 </h2>
             </div>
         </div>

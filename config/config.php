@@ -20,6 +20,7 @@ return [
     'show_how_it_works_section' => true,
     'show_call_to_action_section' => true,
     'show_testimonials_section' => true,
+    'show_pricing_section' => true,
 
     // Main
     'main_section_main_section_upper_title_path' => '/register',
