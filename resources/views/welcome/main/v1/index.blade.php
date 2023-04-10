@@ -3,12 +3,10 @@
         <div class="flex items-center justify-center h-full">
             <div class="w-full md:w-3/4 p-8 mb-20">
                 <div class="inline-block mb-6 px-2 py-1 font-semibold opacity-90 hover:opacity-75 {{ config('laravel-welcome-page.bg_color_secondary') }} rounded-full transition ease-in-out duration-700">
-                    <span
-                            class="try-now flex flex-wrap items-center -m-1 text-sm cursor-pointer"
-                    >
+                    <span class="try-now flex flex-wrap items-center -m-1 text-sm cursor-pointer">
                         <a
-                                href="{{ config('laravel-welcome-page.main-v1_upper_title_path') }}"
-                                class="w-auto p-1"
+                            href="{{ config('laravel-welcome-page.main-v1_upper_title_path') }}"
+                            class="w-auto p-1"
                         >
                             {{ __('laravel-welcome-page::main-v1.upper_title') }}
                         </a>
@@ -38,14 +36,14 @@
                 </p>
                 <div class="flex flex-col sm:flex-row space-y-5 sm:space-y-0 items-center">
                     <a
-                            href="{{ config('laravel-welcome-page.main-v1_primary_button_path') }}"
-                            class="inline-block md:w-96 text-center py-4 px-6 w-full text-white font-semibold rounded-xl focus:ring focus:outline-none focus:ring-red-300 opacity-90 hover:opacity-100 {{ config('laravel-welcome-page.main_button_color') }} transition ease-in-out duration-200 select-none"
+                        href="{{ config('laravel-welcome-page.main-v1_primary_button_path') }}"
+                        class="inline-block md:w-96 text-center py-4 px-6 w-full text-white font-semibold rounded-xl focus:ring focus:outline-none focus:ring-red-300 opacity-90 hover:opacity-100 {{ config('laravel-welcome-page.main_button_color') }} transition ease-in-out duration-200 select-none"
                     >
                         {{ __('laravel-welcome-page::main-v1.primary_button_text') }}
                     </a>
                     <a
-                            href="{{ config('laravel-welcome-page.main-v1_secondary_button_path') }}"
-                            class="text-center sm:text-left cursor-pointer try-now py-4 px-9 w-full font-semibold hover:underline transition ease-in-out duration-200 select-none"
+                        href="{{ config('laravel-welcome-page.main-v1_secondary_button_path') }}"
+                        class="text-center sm:text-left cursor-pointer try-now py-4 px-9 w-full font-semibold hover:underline transition ease-in-out duration-200 select-none"
                     >
                         {{ __('laravel-welcome-page::main-v1.secondary_button_text') }}
                     </a>
@@ -53,12 +51,12 @@
             </div>
             <div class="hidden sm:block relative w-full md:w-1/4 p-8">
                 <lottie-player
-                        src="{{ asset(config('laravel-welcome-page.main-v1_lottie_src')) }}"
-                        background="transparent"
-                        speed="{{ config('laravel-welcome-page.main-v1_lottie_speed') }}"
-                        loop
-                        autoplay
-                        style="
+                    src="{{ asset(config('laravel-welcome-page.main-v1_lottie_src')) }}"
+                    background="transparent"
+                    speed="{{ config('laravel-welcome-page.main-v1_lottie_speed') }}"
+                    loop
+                    autoplay
+                    style="
                         width: {{ config('laravel-welcome-page.main-v1_lottie_width') }}px;
                         height: {{ config('laravel-welcome-page.main-v1_lottie_height') }}px;
                         position: absolute;

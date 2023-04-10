@@ -39,17 +39,17 @@ return [
     'main-v1_primary_button_path' => '/register',
     'main-v1_secondary_button_path' => '/register',
 
-    'main-v1_lottie_src' => '<images/card-game.json>',
+    'main-v1_lottie_src' => '<images/...json>',
     'main-v1_lottie_speed' => 0.75,
     'main-v1_lottie_width' => 550,
     'main-v1_lottie_height' => 550,
     'main-v1_lottie_top' => -200,
     'main-v1_lottie_right' => 10,
 
-    // How it works
-    'how_it_works_step_1_image' => 'images/pp/businessmans-hand-holding-question-mark-ai.png',
-    'how_it_works_step_2_image' => 'images/pp/hand-of-postman-putting-letter-or-envelope-into-open-mailbox-ai.png',
-    'how_it_works_step_3_image' => 'images/pp/hand-taking-tissue-out-of-box.png',
+    // how-it-works-v1
+    'how_it_works-v1_step_1_image' => '<images/...png>',
+    'how_it_works-v1_step_2_image' => '<images/...png>',
+    'how_it_works-v1_step_3_image' => '<images/...png>',
 
     // Call to action
     'call_to_action_primary_button_path' => '/register',
