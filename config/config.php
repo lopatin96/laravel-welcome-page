@@ -27,7 +27,8 @@ return [
 //            'testimonials' => 'v1',
 //            'pricing' => 'v5',
 //            'faq' => 'v1',
-              'stats' => 'v4',
+//              'stats' => 'v4',
+              'features' => 'v1',
         ]
     ],
 
@@ -94,4 +95,8 @@ return [
         'testimonials-v3_card_3_name' => 'v3_card_3_name',
         'testimonials-v3_card_3_link' => 'v3_card_3_link',
         'testimonials-v3_card_3_time' => 'v3_card_3_time',
+
+    // features
+        // v1
+        'features-v1_image' => '<images/...png>',
 ];
