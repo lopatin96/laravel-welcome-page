@@ -23,8 +23,8 @@ return [
         'main' => 'v1',
         'others' => [
 //            'how-it-works' => 'v1',
-//            'call-to-action' => 'v1',
-            'testimonials' => 'v3',
+            'call-to-action' => 'v3',
+//            'testimonials' => 'v3',
 //            'pricing' => 'v5',
 //            'faq' => 'v1',
         ]
@@ -47,9 +47,21 @@ return [
     'how_it_works-v1_step_2_image' => '<images/...png>',
     'how_it_works-v1_step_3_image' => '<images/...png>',
 
-    // call-to-action-v1
-    'call_to_action-v1_primary_button_path' => '/register',
-    'call_to_action-v1_secondary_button_path' => 'mailto:' . config('mail.support'),
+    // call-to-action
+        // v1
+        'call_to_action-v1_primary_button_path' => '/register',
+        'call_to_action-v1_secondary_button_path' => 'mailto:' . config('mail.support'),
+
+        // v2
+        'call_to_action-v2_button_path' => '/register',
+        'call_to_action-v2_avatar_1' => '<images/...png>',
+        'call_to_action-v2_avatar_2' => '<images/...png>',
+        'call_to_action-v2_avatar_3' => '<images/...png>',
+
+        // v3
+        'call_to_action-v3_button_path' => '/register',
+        'call_to_action-v3_photo_1' => '<images/...png>',
+        'call_to_action-v3_photo_2' => '<images/...png>',
 
     // pricing
     'pricing_button_path' => '/billing',
