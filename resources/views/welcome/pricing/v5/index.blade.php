@@ -37,7 +37,7 @@
                             @foreach(config('spark.billables.user.plans.0.features') as $planFeature)
                                 <li class="flex items-center">
                                     <svg class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.text_color_secondary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.color_secondary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                     </svg>
                                     <p class="@if ($loop->last) text-gray-400 @endif font-semibold leading-normal">
                                         {!! __($planFeature) !!}
@@ -71,7 +71,7 @@
                                 @foreach(config('spark.billables.user.plans.0.features') as $planFeature)
                                     <li class="flex items-center">
                                         <svg class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.text_color_secondary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.color_secondary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                         </svg>
                                         <p class="font-semibold leading-normal">
                                             {!! __($planFeature) !!}
@@ -84,7 +84,10 @@
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/4">
                     <div class="px-9 pt-8 pb-11 h-full bg-white bg-opacity-90" style="backdrop-filter: blur(46px);">
-                        <span class="hidden absolute bg-radial-gradient-blue opacity-[.20] pointer-events-none lg:inline-flex top-0 left-0 w-[640px] h-[640px]"></span>
+                        <span
+                            style="background-image: radial-gradient(50% 50% at 50% 50%, {{ config('laravel-welcome-page.color_secondary_hex') }} 0, hsla(0, 0%, 100%, 0) 100%);"
+                            class="hidden absolute opacity-[.20] pointer-events-none lg:inline-flex top-0 left-0 w-[640px] h-[640px]"
+                        ></span>
 
                         <span class="mb-3 inline-block text-sm {{ config('laravel-welcome-page.text_color_primary') }} font-semibold uppercase tracking-px leading-snug">
                             {{ config('spark.billables.user.plans.1.name') }}
@@ -107,7 +110,7 @@
                             @foreach(config('spark.billables.user.plans.1.features') as $planFeature)
                                 <li class="flex items-center">
                                     <svg class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.text_color_secondary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.color_secondary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                     </svg>
                                     <p class="font-semibold leading-normal">
                                         {!! __($planFeature) !!}
@@ -140,7 +143,7 @@
                             @foreach(config('spark.billables.user.plans.2.features') as $planFeature)
                                 <li class="flex items-center">
                                     <svg class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.text_color_secondary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.color_secondary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                     </svg>
                                     <p class="font-semibold leading-normal">
                                         {!! __($planFeature) !!}

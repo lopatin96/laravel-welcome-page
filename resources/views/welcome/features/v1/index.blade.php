@@ -2,7 +2,10 @@
     id="features"
     class="relative py-32 bg-white overflow-hidden"
 >
-    <span class="hidden absolute bg-radial-gradient-blue opacity-[.50] pointer-events-none lg:inline-flex right-[20%] top-[30px] w-[500px] h-[500px]"></span>
+    <span
+        style="background-image: radial-gradient(50% 50% at 50% 50%, {{ config('laravel-welcome-page.color_secondary_hex') }} 0, hsla(0, 0%, 100%, 0) 100%);"
+        class="hidden absolute opacity-[.50] pointer-events-none lg:inline-flex right-[20%] top-[30px] w-[500px] h-[500px]"
+    ></span>
 
     <div class="container px-4 mx-auto">
         <div class="flex flex-wrap items-center -m-8">

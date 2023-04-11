@@ -2,7 +2,10 @@
     id="testimonials"
     class="relative pt-24 pb-32 bg-white"
 >
-    <span class="hidden absolute bg-radial-gradient-blue opacity-[.50] pointer-events-none lg:inline-flex left-[50%] top-[100px] w-[400px] h-[400px]"></span>
+    <span
+        style="background-image: radial-gradient(50% 50% at 50% 50%, {{ config('laravel-welcome-page.color_secondary_hex') }} 0, hsla(0, 0%, 100%, 0) 100%);"
+        class="hidden absolute opacity-[.50] pointer-events-none lg:inline-flex left-[50%] top-[100px] w-[400px] h-[400px]"
+    ></span>
 
     <div class="relative container px-4 max-w-6xl mx-auto">
         <div class="flex flex-wrap justify-between items-end -m-2 mb-12">

@@ -2,7 +2,10 @@
     id="pricing"
     class="relative py-36 bg-gray-50 overflow-hidden lg:h-screen"
 >
-    <span class="hidden absolute bg-radial-gradient-blue opacity-[.50] pointer-events-none lg:inline-flex right-[20%] top-[100px] w-[640px] h-[640px]"></span>
+    <span
+        style="background-image: radial-gradient(50% 50% at 50% 50%, {{ config('laravel-welcome-page.color_secondary_hex') }} 0, hsla(0, 0%, 100%, 0) 100%);"
+        class="hidden absolute opacity-[.50] pointer-events-none lg:inline-flex right-[20%] top-[100px] w-[640px] h-[640px]"
+    ></span>
 
     <div class="relative container px-4 max-w-6xl mx-auto">
         <div class="flex flex-wrap lg:items-center -m-8">
@@ -29,7 +32,7 @@
                             @foreach(config('spark.billables.user.plans.0.features') as $planFeature)
                                 <li class="mb-4 flex items-center">
                                     <svg class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M7.5 10L9.16667 11.6667L12.5 8.33333M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z" stroke="{{ config('laravel-welcome-page.text_color_secondary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M7.5 10L9.16667 11.6667L12.5 8.33333M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z" stroke="{{ config('laravel-welcome-page.color_secondary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                     </svg>
                                     <p class="font-semibold leading-normal">
                                         {!! __($planFeature) !!}

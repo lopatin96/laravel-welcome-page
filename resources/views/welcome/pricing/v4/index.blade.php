@@ -37,7 +37,10 @@
                 </div>
                 <div class="w-full md:w-1/3 p-4">
                     <div class="relative flex flex-col px-9 pt-8 pb-9 h-full bg-white bg-opacity-90 border border-gray-200 rounded-3xl shadow-9xl" style="backdrop-filter: blur(46px);">
-                        <span class="hidden absolute bg-radial-gradient-blue opacity-[.45] pointer-events-none lg:inline-flex -top-[30px] w-[640px] h-[640px]"></span>
+                        <span
+                            style="background-image: radial-gradient(50% 50% at 50% 50%, {{ config('laravel-welcome-page.color_secondary_hex') }} 0, hsla(0, 0%, 100%, 0) 100%);"
+                            class="hidden absolute opacity-[.45] pointer-events-none lg:inline-flex -top-[30px] w-[640px] h-[640px]"
+                        ></span>
 
                         <div class="relative z-10">
                             <span class="mb-9 inline-block text-sm {{ config('laravel-welcome-page.text_color_primary') }} font-semibold uppercase tracking-px leading-snug">

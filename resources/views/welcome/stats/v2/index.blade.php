@@ -2,7 +2,10 @@
     id="stats"
     class="relative pt-28 pb-36 bg-gray-50 overflow-hidden"
 >
-    <span class="hidden absolute bg-radial-gradient-blue opacity-[.30] pointer-events-none lg:inline-flex right-[30%] top-[60px] w-[400px] h-[400px]"></span>
+    <span
+        style="background-image: radial-gradient(50% 50% at 50% 50%, {{ config('laravel-welcome-page.color_secondary_hex') }} 0, hsla(0, 0%, 100%, 0) 100%);"
+        class="hidden absolute opacity-[.30] pointer-events-none lg:inline-flex right-[30%] top-[60px] w-[400px] h-[400px]"
+    ></span>
 
     <div class="container px-4 mx-auto">
         <h2 class="mb-5 text-6xl md:text-7xl font-bold font-heading text-center tracking-px-n leading-tight">

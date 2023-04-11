@@ -2,8 +2,14 @@
     id="testimonials"
     class="relative pt-24 pb-32 bg-white overflow-hidden"
 >
-    <span class="hidden absolute bg-radial-gradient-blue opacity-[.30] pointer-events-none lg:inline-flex -left-[20%] top-0 w-[640px] h-[640px]"></span>
-    <span class="hidden absolute bg-radial-gradient-blue opacity-[.30] pointer-events-none lg:inline-flex -right-[20%] bottom-0 w-[640px] h-[640px]"></span>
+    <span
+        style="background-image: radial-gradient(50% 50% at 50% 50%, {{ config('laravel-welcome-page.color_secondary_hex') }} 0, hsla(0, 0%, 100%, 0) 100%);"
+        class="hidden absolute opacity-[.30] pointer-events-none lg:inline-flex -left-[20%] top-0 w-[640px] h-[640px]"
+    ></span>
+    <span
+        style="background-image: radial-gradient(50% 50% at 50% 50%, {{ config('laravel-welcome-page.color_secondary_hex') }} 0, hsla(0, 0%, 100%, 0) 100%);"
+        class="hidden absolute opacity-[.30] pointer-events-none lg:inline-flex -right-[20%] bottom-0 w-[640px] h-[640px]"
+    ></span>
 
     <div class="relative z-10 container px-4 mx-auto">
         <h2 class="mb-16 text-6xl md:text-7xl font-bold font-heading text-center tracking-px-n leading-tight">

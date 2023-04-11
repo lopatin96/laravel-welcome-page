@@ -9,12 +9,13 @@ return [
     'gradient_to' => 'to-sky-300',
 
     'text_color_primary' => 'text-sky-600',
-    'text_color_primary_hex' => '#0284c7',
     'text_color_secondary' => 'text-sky-300',
-    'text_color_secondary_hex' => '#7dd3fc',
 
     'bg_color_primary' => 'bg-sky-600',
     'bg_color_secondary' => 'bg-sky-300',
+
+    'color_primary_hex' => '#0284c7',
+    'color_secondary_hex' => '#7dd3fc',
 
     'main_button_color' => 'bg-red-500',
 
@@ -22,13 +23,34 @@ return [
     'sections' => [
         'main' => 'v1',
         'others' => [
-//            'how-it-works' => 'v4',
-//            'call-to-action' => 'v1',
-//            'testimonials' => 'v1',
-//            'pricing' => 'v5',
-//            'faq' => 'v1',
-//              'stats' => 'v4',
-              'features' => 'v3',
+            [
+                'name' => 'how-it-works',
+                'variant' => 'v1',
+            ],
+            [
+                'name' => 'call-to-action',
+                'variant' => 'v1',
+            ],
+            [
+                'name' => 'testimonials',
+                'variant' => 'v1',
+            ],
+            [
+                'name' => 'pricing',
+                'variant' => 'v1',
+            ],
+            [
+                'name' => 'faq',
+                'variant' => 'v1',
+            ],
+//            [
+//                'name' => 'stats',
+//                'variant' => 'v1',
+//            ],
+//            [
+//                'name' => 'features',
+//                'variant' => 'v1',
+//            ],
         ]
     ],
 
