@@ -22,11 +22,11 @@ return [
     'sections' => [
         'main' => 'v1',
         'others' => [
-//            'how-it-works' => 'v1',
-//            'call-to-action' => 'v3',
-//            'testimonials' => 'v3',
-//            'pricing' => 'v5',
-            'faq' => 'v2',
+            'how-it-works' => 'v1',
+            'call-to-action' => 'v1',
+            'testimonials' => 'v1',
+            'pricing' => 'v5',
+            'faq' => 'v1',
         ]
     ],
 

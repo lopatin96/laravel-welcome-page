@@ -49,8 +49,6 @@
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/4">
                     <div class="px-9 pt-8 pb-11 h-full bg-white bg-opacity-90" style="backdrop-filter: blur(46px);">
-                        <span class="hidden absolute bg-radial-gradient-blue opacity-[.40] pointer-events-none lg:inline-flex top-0 left-0 w-[640px] h-[640px]"></span>
-
                         <div class="relative z-10">
                             <span class="mb-3 inline-block text-sm {{ config('laravel-welcome-page.text_color_secondary') }} font-semibold uppercase tracking-px leading-snug">
                                 {{ config('spark.billables.user.plans.0.name') }}
@@ -86,6 +84,8 @@
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/4">
                     <div class="px-9 pt-8 pb-11 h-full bg-white bg-opacity-90" style="backdrop-filter: blur(46px);">
+                        <span class="hidden absolute bg-radial-gradient-blue opacity-[.20] pointer-events-none lg:inline-flex top-0 left-0 w-[640px] h-[640px]"></span>
+
                         <span class="mb-3 inline-block text-sm {{ config('laravel-welcome-page.text_color_primary') }} font-semibold uppercase tracking-px leading-snug">
                             {{ config('spark.billables.user.plans.1.name') }}
                         </span>
