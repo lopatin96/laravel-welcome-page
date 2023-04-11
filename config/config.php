@@ -54,17 +54,18 @@ return [
         ]
     ],
 
-    // main-v1
-    'main-v1_upper_title_path' => '/register',
-    'main-v1_primary_button_path' => '/register',
-    'main-v1_secondary_button_path' => '/register',
+    // main
+        // v1
+        'main-v1_upper_title_path' => '/register',
+        'main-v1_primary_button_path' => '/register',
+        'main-v1_secondary_button_path' => '/register',
 
-    'main-v1_lottie_src' => '<images/...json>',
-    'main-v1_lottie_speed' => 0.75,
-    'main-v1_lottie_width' => 550,
-    'main-v1_lottie_height' => 550,
-    'main-v1_lottie_top' => -200,
-    'main-v1_lottie_right' => 10,
+        'main-v1_lottie_src' => '<images/...json>',
+        'main-v1_lottie_speed' => 0.75,
+        'main-v1_lottie_width' => 550,
+        'main-v1_lottie_height' => 550,
+        'main-v1_lottie_top' => -200,
+        'main-v1_lottie_right' => 10,
 
     // how-it-works
         // v1
