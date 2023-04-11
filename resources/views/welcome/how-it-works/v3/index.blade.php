@@ -26,7 +26,6 @@
                 <div class="flex flex-wrap items-center mb-7 -m-2">
                     <div class="w-auto p-2">
                         <div class="relative w-14 h-14 text-2xl text-white font-bold {{ config('laravel-welcome-page.bg_color_secondary') }} rounded-full">
-                            <img class="absolute top-0 left-0" src="flaro-assets/images/how-it-works/gradient.svg" alt="">
                             <span class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">2</span>
                         </div>
                     </div>
