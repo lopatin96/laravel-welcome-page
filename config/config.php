@@ -25,7 +25,7 @@ return [
 //            'how-it-works' => 'v1',
 //            'call-to-action' => 'v1',
 //            'testimonials' => 'v1',
-            'pricing' => 'v5',
+            'pricing' => 'v1',
 //            'faq' => 'v1',
         ]
     ],
