@@ -22,11 +22,12 @@ return [
     'sections' => [
         'main' => 'v1',
         'others' => [
-            'how-it-works' => 'v4',
+//            'how-it-works' => 'v4',
 //            'call-to-action' => 'v1',
 //            'testimonials' => 'v1',
 //            'pricing' => 'v5',
 //            'faq' => 'v1',
+              'stats' => 'v1',
         ]
     ],
 
