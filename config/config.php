@@ -27,7 +27,7 @@ return [
 //            'testimonials' => 'v1',
 //            'pricing' => 'v5',
 //            'faq' => 'v1',
-              'stats' => 'v2',
+              'stats' => 'v3',
         ]
     ],
 
