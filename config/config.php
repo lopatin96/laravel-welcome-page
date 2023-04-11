@@ -24,7 +24,7 @@ return [
         'others' => [
 //            'how-it-works' => 'v1',
 //            'call-to-action' => 'v1',
-            'testimonials' => 'v2',
+            'testimonials' => 'v3',
 //            'pricing' => 'v5',
 //            'faq' => 'v1',
         ]
@@ -52,5 +52,22 @@ return [
     'call_to_action-v1_secondary_button_path' => 'mailto:' . config('mail.support'),
 
     // pricing
-    'pricing_button_path' => '/billing'
+    'pricing_button_path' => '/billing',
+
+    // testimonials
+        // v3
+        'testimonials-v3_card_1_photo' => '<images/...png>',
+        'testimonials-v3_card_1_name' => 'v3_card_1_name',
+        'testimonials-v3_card_1_link' => 'v3_card_1_link',
+        'testimonials-v3_card_1_time' => 'v3_card_1_time',
+
+        'testimonials-v3_card_2_photo' => '<images/...png>',
+        'testimonials-v3_card_2_name' => 'v3_card_2_name',
+        'testimonials-v3_card_2_link' => 'v3_card_2_link',
+        'testimonials-v3_card_2_time' => 'v3_card_2_time',
+
+        'testimonials-v3_card_3_photo' => '<images/...png>',
+        'testimonials-v3_card_3_name' => 'v3_card_3_name',
+        'testimonials-v3_card_3_link' => 'v3_card_3_link',
+        'testimonials-v3_card_3_time' => 'v3_card_3_time',
 ];
