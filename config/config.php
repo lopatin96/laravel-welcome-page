@@ -28,7 +28,7 @@ return [
 //            'pricing' => 'v5',
 //            'faq' => 'v1',
 //              'stats' => 'v4',
-              'features' => 'v1',
+              'features' => 'v2',
         ]
     ],
 
@@ -99,4 +99,9 @@ return [
     // features
         // v1
         'features-v1_image' => '<images/...png>',
+
+        // v2
+        'features-v2_image_1' => '<images/...png>',
+        'features-v2_image_2' => '<images/...png>',
+        'features-v2_image_3' => '<images/...png>',
 ];
