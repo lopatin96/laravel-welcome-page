@@ -23,10 +23,10 @@ return [
         'main' => 'v1',
         'others' => [
 //            'how-it-works' => 'v1',
-            'call-to-action' => 'v3',
+//            'call-to-action' => 'v3',
 //            'testimonials' => 'v3',
 //            'pricing' => 'v5',
-//            'faq' => 'v1',
+            'faq' => 'v2',
         ]
     ],
 
