@@ -1,4 +1,7 @@
-<section class="relative pt-28 pb-32 {{ config('laravel-welcome-page.bg_color_primary') }} overflow-hidden">
+<section
+    id="stats"
+    class="relative pt-28 pb-32 {{ config('laravel-welcome-page.bg_color_primary') }} overflow-hidden"
+>
     <span class="hidden absolute bg-radial-gradient-blue opacity-[.60] pointer-events-none lg:inline-flex left-[20%] top-[30px] w-[600px] h-[600px]"></span>
 
     <div class="relative z-10 container px-4 mx-auto">

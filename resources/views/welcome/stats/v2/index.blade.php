@@ -1,4 +1,7 @@
-<section class="relative pt-28 pb-36 bg-gray-50 overflow-hidden">
+<section
+    id="stats"
+    class="relative pt-28 pb-36 bg-gray-50 overflow-hidden"
+>
     <span class="hidden absolute bg-radial-gradient-blue opacity-[.30] pointer-events-none lg:inline-flex right-[30%] top-[60px] w-[400px] h-[400px]"></span>
 
     <div class="container px-4 mx-auto">

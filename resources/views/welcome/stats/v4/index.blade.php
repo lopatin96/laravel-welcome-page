@@ -1,4 +1,7 @@
-<section class="py-24 bg-gray-100 overflow-hidden">
+<section
+    id="stats"
+    class="py-24 bg-gray-100 overflow-hidden"
+>
     <div class="container px-4 mx-auto">
         <div class="flex flex-wrap max-w-5xl mx-auto -m-3">
             <div class="w-full md:w-1/3 p-3">

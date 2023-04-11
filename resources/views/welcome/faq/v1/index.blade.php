@@ -1,6 +1,6 @@
 <section
-        id="faq"
-        class="relative pt-24 pb-28 bg-gray-50 overflow-hidden"
+    id="faq"
+    class="relative pt-24 pb-28 bg-gray-50 overflow-hidden"
 >
     <div class="relative container px-4 mx-auto">
         <div class="md:max-w-4xl mx-auto">

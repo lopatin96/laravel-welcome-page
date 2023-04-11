@@ -1,4 +1,7 @@
-<section class="h-full">
+<section
+    id="main"
+    class="h-full"
+>
     <div class="relative overflow-hidden max-w-6xl h-full mx-auto">
         <div class="flex items-center justify-center h-full">
             <div class="w-full md:w-3/4 p-8 mb-20">

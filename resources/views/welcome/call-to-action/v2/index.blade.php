@@ -1,4 +1,7 @@
-<section class="pt-24 pb-28 bg-white overflow-hidden">
+<section
+    id="call-to-action"
+    class="pt-24 pb-28 bg-white overflow-hidden"
+>
     <div class="container px-4 mx-auto">
         <div class="text-center max-w-lg mx-auto">
             <h2 class="mb-5 text-6xl md:text-7xl font-bold font-heading text-center tracking-px-n leading-tight">

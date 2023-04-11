@@ -1,4 +1,7 @@
-<section class="relative py-28 bg-gray-50 bg-gradient-to-r {{ config('laravel-welcome-page.gradient_from') }} {{ config('laravel-welcome-page.gradient_to') }} animate-gradient-x overflow-hidden">
+<section
+    id="call-to-action"
+    class="relative py-28 bg-gray-50 bg-gradient-to-r {{ config('laravel-welcome-page.gradient_from') }} {{ config('laravel-welcome-page.gradient_to') }} animate-gradient-x overflow-hidden"
+>
     <div class="relative container px-4 max-w-7xl mx-auto">
         <div class="flex flex-wrap items-center">
             <div class="w-full md:w-1/2 p-8">
