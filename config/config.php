@@ -85,7 +85,7 @@ return [
     // call-to-action
         // v1
         'call_to_action-v1_primary_button_path' => '/register',
-        'call_to_action-v1_secondary_button_path' => 'mailto:' . config('mail.support'),
+        'call_to_action-v1_secondary_button_path' => 'mailto:support@email.com',
 
         // v2
         'call_to_action-v2_button_path' => '/register',
