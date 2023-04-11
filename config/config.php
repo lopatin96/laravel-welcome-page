@@ -24,8 +24,8 @@ return [
         'others' => [
 //            'how-it-works' => 'v1',
 //            'call-to-action' => 'v1',
-//            'testimonials' => 'v1',
-            'pricing' => 'v1',
+            'testimonials' => 'v2',
+//            'pricing' => 'v5',
 //            'faq' => 'v1',
         ]
     ],
