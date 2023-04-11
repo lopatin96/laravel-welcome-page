@@ -22,7 +22,7 @@ return [
     'sections' => [
         'main' => 'v1',
         'others' => [
-            'how-it-works' => 'v2',
+            'how-it-works' => 'v3',
 //            'call-to-action' => 'v1',
 //            'testimonials' => 'v1',
 //            'pricing' => 'v5',
