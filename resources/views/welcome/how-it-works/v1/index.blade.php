@@ -25,7 +25,7 @@
                     <img
                         class="mx-auto h-48 object-cover rounded-3xl transform hover:translate-y-3 transition ease-in-out duration-1000"
                         src="{{ asset(config('laravel-welcome-page.how_it_works-v1_step_1_image')) }}"
-                        alt="businessmans hand holding question mark"
+                        alt="how it works"
                         loading="lazy"
                     >
                 </div>
@@ -43,7 +43,7 @@
                     <img
                         class="mx-auto h-48 object-cover rounded-3xl transform hover:translate-y-3 transition ease-in-out duration-1000"
                         src="{{ asset(config('laravel-welcome-page.how_it_works-v1_step_2_image')) }}"
-                        alt="hand of postman putting letter into open mailbox"
+                        alt="how it works"
                         loading="lazy"
                     >
                 </div>

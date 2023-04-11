@@ -22,11 +22,11 @@ return [
     'sections' => [
         'main' => 'v1',
         'others' => [
-            'how-it-works' => 'v1',
-            'call-to-action' => 'v1',
-            'testimonials' => 'v1',
-            'pricing' => 'v5',
-            'faq' => 'v1',
+            'how-it-works' => 'v2',
+//            'call-to-action' => 'v1',
+//            'testimonials' => 'v1',
+//            'pricing' => 'v5',
+//            'faq' => 'v1',
         ]
     ],
 
@@ -42,10 +42,16 @@ return [
     'main-v1_lottie_top' => -200,
     'main-v1_lottie_right' => 10,
 
-    // how-it-works-v1
-    'how_it_works-v1_step_1_image' => '<images/...png>',
-    'how_it_works-v1_step_2_image' => '<images/...png>',
-    'how_it_works-v1_step_3_image' => '<images/...png>',
+    // how-it-works
+        // v1
+        'how_it_works-v1_step_1_image' => '<images/...png>',
+        'how_it_works-v1_step_2_image' => '<images/...png>',
+        'how_it_works-v1_step_3_image' => '<images/...png>',
+
+        // v2
+        'how_it_works-v2_step_1_image' => '<images/...png>',
+        'how_it_works-v2_step_2_image' => '<images/...png>',
+        'how_it_works-v2_step_3_image' => '<images/...png>',
 
     // call-to-action
         // v1
