@@ -4,7 +4,7 @@ namespace Atin\LaravelWelcomePage\Http\Controllers;
 
 use Illuminate\Support\Facades\Auth;
 
-class WelcomeController extends Controller
+class WelcomePageController extends Controller
 {
     public function index()
     {
