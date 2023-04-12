@@ -19,15 +19,15 @@ class WelcomePageProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'laravel-welcome-page');
 
         $this->publishes([
-            __DIR__.'/../resources/views' => resource_path('views/vendor/views')
+            __DIR__.'/../resources/views' => resource_path('views/vendor/laravel-welcome-page')
         ], 'laravel-welcome-page-views');
 
         $this->publishes([
-            __DIR__.'/../lang' => $this->app->langPath('vendor/welcome-page'),
+            __DIR__.'/../lang' => $this->app->langPath('vendor/laravel-welcome-page'),
         ], 'laravel-welcome-page-lang');
 
         $this->publishes([
-            __DIR__.'/../config/config.php' => config_path('welcome-page.php')
+            __DIR__.'/../config/config.php' => config_path('laravel-welcome-page.php')
         ], 'laravel-welcome-page-config');
     }
 }

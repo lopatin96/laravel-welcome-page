@@ -16,7 +16,7 @@
             {{ __('laravel-welcome-page::testimonials-v3.title') }}
         </h2>
         <div class="flex flex-wrap -m-3">
-            @include('laravel-welcome-page::welcome.testimonials.v3.testimonial-card', [
+            @include('laravel-welcome-page::welcome-page.testimonials.v3.testimonial-card', [
                 'photo' => config('laravel-welcome-page.testimonials-v3_card_1_photo'),
                 'author' => 'laravel-welcome-page::testimonials-v3.testimonial_1_author',
                 'link' => config('laravel-welcome-page.testimonials-v3_card_1_link'),
@@ -24,7 +24,7 @@
                 'time' => config('laravel-welcome-page.testimonials-v3_card_1_time'),
             ])
 
-            @include('laravel-welcome-page::welcome.testimonials.v3.testimonial-card', [
+            @include('laravel-welcome-page::welcome-page.testimonials.v3.testimonial-card', [
                 'photo' => config('laravel-welcome-page.testimonials-v3_card_2_photo'),
                 'author' => 'laravel-welcome-page::testimonials-v3.testimonial_2_author',
                 'link' => config('laravel-welcome-page.testimonials-v3_card_2_link'),
@@ -32,7 +32,7 @@
                 'time' => config('laravel-welcome-page.testimonials-v3_card_2_time'),
             ])
 
-            @include('laravel-welcome-page::welcome.testimonials.v3.testimonial-card', [
+            @include('laravel-welcome-page::welcome-page.testimonials.v3.testimonial-card', [
                 'photo' => config('laravel-welcome-page.testimonials-v3_card_3_photo'),
                 'author' => 'laravel-welcome-page::testimonials-v3.testimonial_3_author',
                 'link' => config('laravel-welcome-page.testimonials-v3_card_3_link'),
@@ -40,7 +40,7 @@
                 'time' => config('laravel-welcome-page.testimonials-v3_card_3_time'),
             ])
 
-            @include('laravel-welcome-page::welcome.testimonials.v3.testimonial-card', [
+            @include('laravel-welcome-page::welcome-page.testimonials.v3.testimonial-card', [
                 'photo' => config('laravel-welcome-page.testimonials-v3_card_3_photo'),
                 'author' => 'laravel-welcome-page::testimonials-v3.testimonial_3_author',
                 'link' => config('laravel-welcome-page.testimonials-v3_card_3_link'),
@@ -48,7 +48,7 @@
                 'time' => config('laravel-welcome-page.testimonials-v3_card_3_time'),
             ])
 
-            @include('laravel-welcome-page::welcome.testimonials.v3.testimonial-card', [
+            @include('laravel-welcome-page::welcome-page.testimonials.v3.testimonial-card', [
                 'photo' => config('laravel-welcome-page.testimonials-v3_card_3_photo'),
                 'author' => 'laravel-welcome-page::testimonials-v3.testimonial_3_author',
                 'link' => config('laravel-welcome-page.testimonials-v3_card_3_link'),
@@ -56,7 +56,7 @@
                 'time' => config('laravel-welcome-page.testimonials-v3_card_3_time'),
             ])
 
-            @include('laravel-welcome-page::welcome.testimonials.v3.testimonial-card', [
+            @include('laravel-welcome-page::welcome-page.testimonials.v3.testimonial-card', [
                 'photo' => config('laravel-welcome-page.testimonials-v3_card_3_photo'),
                 'author' => 'laravel-welcome-page::testimonials-v3.testimonial_3_author',
                 'link' => config('laravel-welcome-page.testimonials-v3_card_3_link'),

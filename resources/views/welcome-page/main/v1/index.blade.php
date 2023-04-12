@@ -31,7 +31,7 @@
                     </span>
                     <span class="bg-black text-white">
                         {{ __('laravel-welcome-page::main-v1.for') }}
-                        @include('laravel-welcome-page::welcome.main.v1.typed')
+                        @include('laravel-welcome-page::welcome-page.main.v1.typed')
                     </span>
                 </h1>
                 <p class="mb-10 md:mb-24 text-lg md:max-w-md selection:bg-black selection:text-white">

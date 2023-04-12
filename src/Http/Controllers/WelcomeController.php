@@ -12,6 +12,6 @@ class WelcomeController extends Controller
             return redirect('/dashboard');
         }
 
-        return view('laravel-welcome-page::welcome.index');
+        return view('laravel-welcome-page::welcome-page.index');
     }
 }

@@ -11,25 +11,25 @@
         </h2>
         <div class="mb-8 md:max-w-5xl">
             <div class="flex flex-wrap -m-4">
-                @include('laravel-welcome-page::welcome.faq.v2.faq-card', [
+                @include('laravel-welcome-page::welcome-page.faq.v2.faq-card', [
                     'open' => true,
                     'question' => 'laravel-welcome-page::faq-v2.faq_1_question',
                     'answer' => 'laravel-welcome-page::faq-v2.faq_1_answer',
                 ])
 
-                @include('laravel-welcome-page::welcome.faq.v2.faq-card', [
+                @include('laravel-welcome-page::welcome-page.faq.v2.faq-card', [
                     'open' => true,
                     'question' => 'laravel-welcome-page::faq-v2.faq_2_question',
                     'answer' => 'laravel-welcome-page::faq-v2.faq_2_answer',
                 ])
 
-                @include('laravel-welcome-page::welcome.faq.v2.faq-card', [
+                @include('laravel-welcome-page::welcome-page.faq.v2.faq-card', [
                     'open' => true,
                     'question' => 'laravel-welcome-page::faq-v2.faq_3_question',
                     'answer' => 'laravel-welcome-page::faq-v2.faq_3_answer',
                 ])
 
-                @include('laravel-welcome-page::welcome.faq.v2.faq-card', [
+                @include('laravel-welcome-page::welcome-page.faq.v2.faq-card', [
                     'open' => true,
                     'question' => 'laravel-welcome-page::faq-v2.faq_4_question',
                     'answer' => 'laravel-welcome-page::faq-v2.faq_4_answer',

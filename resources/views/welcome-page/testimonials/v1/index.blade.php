@@ -16,19 +16,19 @@
             </div>
         </div>
         <div class="flex flex-wrap -m-2">
-            @include('laravel-welcome-page::welcome.testimonials.v1.testimonial-card', [
+            @include('laravel-welcome-page::welcome-page.testimonials.v1.testimonial-card', [
                 'title' => 'laravel-welcome-page::testimonials-v1.testimonial_1_title',
                 'text' => 'laravel-welcome-page::testimonials-v1.testimonial_1_text',
                 'author' => 'laravel-welcome-page::testimonials-v1.testimonial_1_author',
             ])
 
-            @include('laravel-welcome-page::welcome.testimonials.v1.testimonial-card', [
+            @include('laravel-welcome-page::welcome-page.testimonials.v1.testimonial-card', [
                 'title' => 'laravel-welcome-page::testimonials-v1.testimonial_2_title',
                 'text' => 'laravel-welcome-page::testimonials-v1.testimonial_2_text',
                 'author' => 'laravel-welcome-page::testimonials-v1.testimonial_2_author',
             ])
 
-            @include('laravel-welcome-page::welcome.testimonials.v1.testimonial-card', [
+            @include('laravel-welcome-page::welcome-page.testimonials.v1.testimonial-card', [
                 'title' => 'laravel-welcome-page::testimonials-v1.testimonial_3_title',
                 'text' => 'laravel-welcome-page::testimonials-v1.testimonial_3_text',
                 'author' => 'laravel-welcome-page::testimonials-v1.testimonial_3_author',
