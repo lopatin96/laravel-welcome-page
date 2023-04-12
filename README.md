@@ -1,8 +1,42 @@
-# Localization
-    php artisan vendor:publish --tag="laravel-welcome-page-lang"
+# Install
+### Publish config
+```php
+php artisan vendor:publish --tag="laravel-welcome-page-config"
+```
+Select which variants of sections in you want. You can do it in *config/welcome-page.php*:
+```json
+'sections' => [
+    'main' => 'v1',
+    'others' => [
+        [
+            'name' => 'how-it-works',
+            'variant' => 'v1',
+        ],
+        [
+          'name' => 'call-to-action',
+          'variant' => 'v2',
+        ],
+```
+by specifying order of sections and their variants.
 
-# Views
-    php artisan vendor:publish --tag="laravel-welcome-page-views"
+### Publish localization
+```php
+php artisan vendor:publish --tag="laravel-welcome-page-lang"
+```
+Add local strings in *lang/vendor/welcome-page/en/<section-name-variant>.php* for selected sections.
 
-# Config
-    php artisan vendor:publish --tag="laravel-welcome-page-config"
+# Publishing
+### Localization
+```php
+php artisan vendor:publish --tag="laravel-welcome-page-lang"
+```
+
+### Views
+```php
+php artisan vendor:publish --tag="laravel-welcome-page-views"
+```
+
+### Config
+```php
+php artisan vendor:publish --tag="laravel-welcome-page-config"
+```

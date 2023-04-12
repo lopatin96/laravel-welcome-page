@@ -23,11 +23,11 @@ class WelcomePageProvider extends ServiceProvider
         ], 'laravel-welcome-page-views');
 
         $this->publishes([
-            __DIR__.'/../lang' => $this->app->langPath('vendor/laravel-welcome-page'),
+            __DIR__.'/../lang' => $this->app->langPath('vendor/welcome-page'),
         ], 'laravel-welcome-page-lang');
 
         $this->publishes([
-            __DIR__.'/../config/config.php' => config_path('laravel-welcome-page.php')
+            __DIR__.'/../config/config.php' => config_path('welcome-page.php')
         ], 'laravel-welcome-page-config');
     }
 }
