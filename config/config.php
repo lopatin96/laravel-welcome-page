@@ -25,22 +25,27 @@ return [
         'others' => [
             [
                 'name' => 'how-it-works',
+                'id' => 'how-it-works',
                 'variant' => 'v1',
             ],
             [
                 'name' => 'call-to-action',
+                'id' => 'call-to-action',
                 'variant' => 'v1',
             ],
             [
                 'name' => 'testimonials',
+                'id' => 'testimonials',
                 'variant' => 'v1',
             ],
             [
                 'name' => 'pricing',
+                'id' => 'pricing',
                 'variant' => 'v1',
             ],
             [
                 'name' => 'faq',
+                'id' => 'faq',
                 'variant' => 'v1',
             ],
 //            [

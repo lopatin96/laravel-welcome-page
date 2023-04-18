@@ -1,5 +1,5 @@
 <section
-    id="stats"
+    @if($id) id="{{ $id }}" @endif
     class="relative py-24 bg-white overflow-hidden"
 >
     <span

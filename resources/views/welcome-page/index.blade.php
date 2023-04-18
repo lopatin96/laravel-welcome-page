@@ -6,9 +6,9 @@
 
     @foreach(config('laravel-welcome-page.sections.others') as $section)
         @isset($section['view'])
-            @include($section['view'])
+            @include($section['view'], ['id' => $section['id'] ?? null])
         @else
-            @include("laravel-welcome-page::welcome-page.{$section['name']}.{$section['variant']}.index")
+            @include("laravel-welcome-page::welcome-page.{$section['name']}.{$section['variant']}.index", ['id' => $section['id'] ?? null])
         @endisset
     @endforeach
 

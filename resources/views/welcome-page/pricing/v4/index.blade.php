@@ -1,5 +1,5 @@
 <section
-    id="pricing"
+    @if($id) id="{{ $id }}" @endif
     class="pt-24 pb-28 bg-blueGray-50 overflow-hidden"
 >
     <div class="container px-4 mx-auto">
