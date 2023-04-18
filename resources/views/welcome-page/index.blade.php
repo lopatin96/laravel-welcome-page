@@ -5,7 +5,11 @@
     </div>
 
     @foreach(config('laravel-welcome-page.sections.others') as $section)
-        @include("laravel-welcome-page::welcome-page.{$section['name']}.{$section['variant']}.index")
+        @isset($section['view'])
+            @include($section['view'])
+        @else
+            @include("laravel-welcome-page::welcome-page.{$section['name']}.{$section['variant']}.index")
+        @endisset
     @endforeach
 
     @include(config('laravel-welcome-page.footer_path'))

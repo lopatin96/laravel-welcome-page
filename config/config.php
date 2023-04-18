@@ -51,6 +51,10 @@ return [
 //                'name' => 'features',
 //                'variant' => 'v1',
 //            ],
+//            [
+//                'name' => 'custom-name',
+//                'view' => 'welcome.custom-view',
+//            ],
         ]
     ],
 
