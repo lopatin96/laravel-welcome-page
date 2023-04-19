@@ -27,6 +27,7 @@ return [
                 'name' => 'how-it-works',
                 'id' => 'how-it-works',
                 'variant' => 'v1',
+                'id' => 'how-it-works',
             ],
             [
                 'name' => 'call-to-action',
