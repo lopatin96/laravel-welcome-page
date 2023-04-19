@@ -1,5 +1,5 @@
 <section
-    id="features"
+    @if($id) id="{{ $id }}" @endif
     class="pt-28 pb-36 bg-white overflow-hidden"
 >
     <div class="container px-4 mx-auto">

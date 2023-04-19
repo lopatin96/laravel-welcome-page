@@ -1,5 +1,5 @@
 <section
-    id="stats"
+    @if($id) id="{{ $id }}" @endif
     class="relative pt-28 pb-32 {{ config('laravel-welcome-page.bg_color_primary') }} overflow-hidden"
 >
     <span

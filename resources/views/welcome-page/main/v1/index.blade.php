@@ -4,7 +4,7 @@
 >
     <div class="relative overflow-hidden max-w-6xl h-full mx-auto">
         <div class="flex items-center justify-center h-full">
-            <div class="w-full md:w-3/4 p-8 mb-20">
+            <div class="w-full lg:w-3/4 p-8 mb-20">
                 <div class="inline-block mb-6 px-2 py-1 font-semibold opacity-90 hover:opacity-75 {{ config('laravel-welcome-page.bg_color_secondary') }} rounded-full transition ease-in-out duration-700">
                     <span class="try-now flex flex-wrap items-center -m-1 text-sm cursor-pointer">
                         <a
@@ -24,7 +24,7 @@
                     </span>
                 </div>
                 <h1 class="mb-6 text-3xl md:text-3xl lg:text-4xl font-extrabold font-heading">
-                    <span class="bg-black text-white text-5xl md:text-6xl lg:text-6xl">
+                    <span class="bg-black text-white text-5xl md:text-6xl">
                         <span class="relative z-10">
                             {!! __('laravel-welcome-page::main-v1.title') !!}
                         </span><br>
@@ -34,7 +34,7 @@
                         @include('laravel-welcome-page::welcome-page.main.v1.typed')
                     </span>
                 </h1>
-                <p class="mb-10 md:mb-24 text-lg md:max-w-md selection:bg-black selection:text-white">
+                <p class="mb-10 md:mb-24 text-lg lg:max-w-md selection:bg-black selection:text-white">
                     {{ __('laravel-welcome-page::main-v1.text') }}
                 </p>
                 <div class="flex flex-col sm:flex-row space-y-5 sm:space-y-0 items-center">
@@ -52,7 +52,7 @@
                     </a>
                 </div>
             </div>
-            <div class="hidden sm:block relative w-full md:w-1/4 p-8">
+            <div class="hidden lg:block relative w-full md:w-1/4 p-8">
                 <lottie-player
                     src="{{ asset(config('laravel-welcome-page.main-v1_lottie_src')) }}"
                     background="transparent"

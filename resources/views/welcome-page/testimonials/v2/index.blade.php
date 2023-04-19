@@ -1,5 +1,5 @@
 <section
-    id="testimonials"
+    @if($id) id="{{ $id }}" @endif
     class="py-24 bg-white overflow-hidden"
 >
     <div class="container px-4 mx-auto">
