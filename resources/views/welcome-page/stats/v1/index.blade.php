@@ -1,13 +1,13 @@
 <section
     @if($id) id="{{ $id }}" @endif
-    class="relative py-24 bg-white overflow-hidden"
+    class="relative py-24 bg-white"
 >
     <span
         style="background-image: radial-gradient(50% 50% at 50% 50%, {{ config('laravel-welcome-page.color_secondary_hex') }} 0, hsla(0, 0%, 100%, 0) 100%);"
-        class="hidden absolute opacity-[.60] pointer-events-none lg:inline-flex left-[45%] bottom-0 w-[300px] h-[300px]"
+        class="hidden absolute opacity-[.60] pointer-events-none lg:inline-flex right-[10%] top-[-40%] w-[450px] h-[450px]"
     ></span>
 
-    <div class="container px-4 mx-auto">
+    <div class="container px-4 max-w-6xl mx-auto">
         <div class="flex flex-wrap -m-8">
             <div class="w-full md:w-1/2 lg:w-2/5 p-8">
                 <h2 class="text-5xl font-bold font-heading tracking-px-n leading-tight">
