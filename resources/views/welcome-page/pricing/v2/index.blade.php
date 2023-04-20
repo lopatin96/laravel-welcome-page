@@ -106,5 +106,5 @@
             </div>
         </div>
     </div>
-    <div class="absolute bottom-0 left-0 w-full py-64 {{ config('laravel-welcome-page.bg_color_secondary') }}"></div>
+    <div class="absolute bottom-0 left-0 w-full py-64 bg-gradient-to-r {{ config('laravel-welcome-page.gradient_from') }} {{ config('laravel-welcome-page.gradient_to') }} animate-gradient-x"></div>
 </section>
