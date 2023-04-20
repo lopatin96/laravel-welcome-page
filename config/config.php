@@ -21,7 +21,9 @@ return [
 
     // sections
     'sections' => [
-        'main' => 'v1',
+        'main' => [
+            'variant' => 'v1',
+        ],
         'others' => [
             [
                 'name' => 'how-it-works',

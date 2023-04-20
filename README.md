@@ -17,7 +17,20 @@ Select which variants of sections in you want. You can do it in *config/welcome-
           'variant' => 'v2',
         ],
 ```
-by specifying order of sections and their variants.
+by specifying variants of sections and their orders.
+Also, choose primary and secondary colors and add their to safelist key in *tailwind.config.js*:
+```js
+safelist: [
+    'from-zinc-100',
+    'to-sky-300',
+    'text-sky-600',
+    'text-sky-300',
+    'bg-sky-600',
+    'bg-sky-300',
+    'bg-red-500',
+    'text-link',
+],
+```
 
 ### Publish localization
 ```php
