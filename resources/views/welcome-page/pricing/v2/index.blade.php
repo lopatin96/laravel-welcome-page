@@ -16,10 +16,10 @@
                         <div class="border-b border-gray-100">
                             <div class="py-7 px-9">
                                 <h3 class="mb-3 text-xl text-gray-900 font-bold leading-snug">
-                                    {{ config('spark.billables.user.plans.0.name') }}
+                                    {{ __(config('spark.billables.user.plans.0.name')) }}
                                 </h3>
                                 <p class="text-gray-500 font-medium leading-relaxed">
-                                    {{ config('spark.billables.user.plans.0.short_description') }}
+                                    {{ __(config('spark.billables.user.plans.0.short_description')) }}
                                 </p>
                             </div>
                         </div>
@@ -62,10 +62,10 @@
                         <div class="border-b border-gray-100">
                             <div class="py-7 px-9">
                                 <h3 class="mb-3 text-xl text-gray-900 font-bold leading-snug">
-                                    {{ config('spark.billables.user.plans.1.name') }}
+                                    {{ __(config('spark.billables.user.plans.1.name')) }}
                                 </h3>
                                 <p class="text-gray-500 font-medium leading-relaxed">
-                                    {{ config('spark.billables.user.plans.1.short_description') }}
+                                    {{ __(config('spark.billables.user.plans.1.short_description')) }}
                                 </p>
                             </div>
                         </div>
