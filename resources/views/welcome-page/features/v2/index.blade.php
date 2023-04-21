@@ -21,7 +21,7 @@
                     <div class="relative h-full rounded-3xl overflow-hidden">
                         <img
                             class="h-full md:w-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
-                            src="{{ config('laravel-welcome-page.features-v2_image_1') }}"
+                            src="{{ asset(config('laravel-welcome-page.features-v2_image_1')) }}"
                             alt="Feature 1"
                             loading="lazy"
                         >
@@ -40,7 +40,7 @@
                     <div class="relative h-full rounded-3xl overflow-hidden">
                         <img
                             class="h-full md:w-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
-                            src="{{ config('laravel-welcome-page.features-v2_image_2') }}"
+                            src="{{ asset(config('laravel-welcome-page.features-v2_image_2')) }}"
                             alt="Feature 2"
                             loading="lazy"
                         >
@@ -59,7 +59,7 @@
                     <div class="relative h-full rounded-3xl overflow-hidden">
                         <img
                             class="h-full md:w-full object-cover transform hover:scale-105 transition ease-in-out duration-1000"
-                            src="{{ config('laravel-welcome-page.features-v2_image_3') }}"
+                            src="{{ asset(config('laravel-welcome-page.features-v2_image_3')) }}"
                             alt="Feature 3"
                             loading="lazy"
                         >

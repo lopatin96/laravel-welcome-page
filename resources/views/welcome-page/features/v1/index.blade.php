@@ -20,7 +20,7 @@
             <div class="w-full md:w-1/2 p-8">
                 <img
                     class="transform hover:-translate-y-4 transition ease-in-out duration-1000"
-                    src="{{ config('laravel-welcome-page.features-v1_image') }}"
+                    src="{{ asset(config('laravel-welcome-page.features-v1_image')) }}"
                     alt="Feature image"
                     loading="lazy"
                 >

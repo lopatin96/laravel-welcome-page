@@ -11,7 +11,7 @@
                 <a class="block overflow-hidden rounded-3xl" href="#">
                     <img
                         class="w-full transform hover:scale-105 transition ease-in-out duration-1000"
-                        src="{{ config('laravel-welcome-page.features-v3_image') }}"
+                        src="{{ asset(config('laravel-welcome-page.features-v3_image')) }}"
                         alt="Feature"
                         loading="lazy"
                     >
