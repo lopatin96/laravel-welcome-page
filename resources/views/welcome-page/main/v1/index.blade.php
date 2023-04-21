@@ -40,7 +40,7 @@
                 <div class="flex flex-col sm:flex-row space-y-5 sm:space-y-0 items-center">
                     <a
                         href="{{ config('laravel-welcome-page.main-v1_primary_button_path') }}"
-                        class="inline-block md:w-96 text-center py-4 px-6 w-full text-white font-semibold rounded-xl focus:ring focus:outline-none focus:ring-red-300 opacity-90 hover:opacity-100 {{ config('laravel-welcome-page.main_button_color') }} transition ease-in-out duration-200 select-none"
+                        class="inline-block md:w-96 text-center py-4 px-6 w-full text-white font-semibold rounded-xl focus:ring focus:outline-none opacity-90 hover:opacity-100 {{ config('laravel-welcome-page.main_button_color') }} transition ease-in-out duration-200 select-none"
                     >
                         {{ __('laravel-welcome-page::main-v1.primary_button_text') }}
                     </a>
