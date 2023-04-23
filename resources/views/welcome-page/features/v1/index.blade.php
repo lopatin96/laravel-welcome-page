@@ -1,15 +1,15 @@
 <section
-    @if($id) id="{{ $id }}" @endif
-    class="relative py-32 bg-white overflow-hidden"
+        @if($id) id="{{ $id }}" @endif
+class="relative py-32 bg-white"
 >
     <span
-        style="background-image: radial-gradient(50% 50% at 50% 50%, {{ config('laravel-welcome-page.color_secondary_hex') }} 0, hsla(0, 0%, 100%, 0) 100%);"
-        class="hidden absolute opacity-[.75] pointer-events-none lg:inline-flex left-[-20%] top-[-20%] w-[640px] h-[640px]"
+            style="background-image: radial-gradient(50% 50% at 50% 50%, {{ config('laravel-welcome-page.color_secondary_hex') }} 0, hsla(0, 0%, 100%, 0) 100%);"
+            class="hidden absolute opacity-[.75] pointer-events-none lg:inline-flex left-[-20%] top-[-20%] w-[640px] h-[640px]"
     ></span>
 
     <div class="container px-4 max-w-6xl mx-auto">
-        <div class="flex flex-wrap items-center -m-8">
-            <div class="w-full md:w-1/2 p-8">
+        <div class="flex flex-wrap items-center">
+            <div class="w-full md:w-1/2 pl-4 py-8 pr-8">
                 <h2 class="mb-6 text-6xl md:text-7xl font-bold font-heading tracking-px-n leading-tight">
                     {{ __('laravel-welcome-page::features-v1.title') }}
                 </h2>
