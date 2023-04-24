@@ -36,9 +36,17 @@
                         <ul class="space-y-4">
                             @foreach(config('spark.billables.user.plans.0.features') as $planFeature)
                                 <li class="flex items-center">
-                                    <svg class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.color_secondary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    </svg>
+                                    <span>
+                                        @if ($loop->last)
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="text-gray-400 w-5 h-5 mr-2">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                            </svg>
+                                        @else
+                                            <svg class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.color_primary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        @endif
+                                    </span>
                                     <p class="@if ($loop->last) text-gray-400 @endif font-semibold leading-normal">
                                         {!! __($planFeature) !!}
                                     </p>
@@ -70,9 +78,11 @@
                             <ul class="space-y-4">
                                 @foreach(config('spark.billables.user.plans.0.features') as $planFeature)
                                     <li class="flex items-center">
-                                        <svg class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.color_secondary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        </svg>
+                                        <span>
+                                            <svg class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.color_primary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
                                         <p class="font-semibold leading-normal">
                                             {!! __($planFeature) !!}
                                         </p>
@@ -109,9 +119,11 @@
                         <ul class="space-y-4">
                             @foreach(config('spark.billables.user.plans.1.features') as $planFeature)
                                 <li class="flex items-center">
-                                    <svg class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.color_secondary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    </svg>
+                                    <span>
+                                        <svg class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.color_primary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
                                     <p class="font-semibold leading-normal">
                                         {!! __($planFeature) !!}
                                     </p>
@@ -142,9 +154,11 @@
                         <ul class="space-y-4">
                             @foreach(config('spark.billables.user.plans.2.features') as $planFeature)
                                 <li class="flex items-center">
-                                    <svg class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.color_secondary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    </svg>
+                                    <span>
+                                        <svg class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="{{ config('laravel-welcome-page.color_primary_hex') }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
                                     <p class="font-semibold leading-normal">
                                         {!! __($planFeature) !!}
                                     </p>
