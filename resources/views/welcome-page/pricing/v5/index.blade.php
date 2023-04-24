@@ -59,10 +59,10 @@
                     <div class="px-9 pt-8 pb-11 h-full bg-white bg-opacity-90" style="backdrop-filter: blur(46px);">
                         <div class="relative z-10">
                             <span class="mb-3 inline-block text-sm {{ config('laravel-welcome-page.text_color_secondary') }} font-semibold uppercase tracking-px leading-snug">
-                                {{ config('spark.billables.user.plans.0.name') }}
+                                {{ __(config('spark.billables.user.plans.0.name')) }}
                             </span>
                             <p class="mb-6 text-gray-500 font-medium leading-relaxed">
-                                {{ config('spark.billables.user.plans.0.short_description') }}
+                                {{ __(config('spark.billables.user.plans.0.short_description')) }}
                             </p>
                             <h3 class="mb-12 text-4xl text-gray-900 font-bold leading-tight">
                                 <span>${{ config('spark.billables.user.plans.0.monthly_price') }}</span>
@@ -100,10 +100,10 @@
                         ></span>
 
                         <span class="mb-3 inline-block text-sm {{ config('laravel-welcome-page.text_color_primary') }} font-semibold uppercase tracking-px leading-snug">
-                            {{ config('spark.billables.user.plans.1.name') }}
+                            {{ __(config('spark.billables.user.plans.1.name')) }}
                         </span>
                         <p class="mb-6 text-gray-500 font-medium leading-relaxed">
-                            {{ config('spark.billables.user.plans.1.short_description') }}
+                            {{ __(config('spark.billables.user.plans.1.short_description')) }}
                         </p>
                         <h3 class="mb-12 text-4xl text-gray-900 font-bold leading-tight">
                             <span>${{ config('spark.billables.user.plans.1.monthly_price') }}</span>
@@ -135,10 +135,10 @@
                 <div class="w-full md:w-1/2 lg:w-1/4">
                     <div class="px-9 pt-8 pb-11 h-full bg-white bg-opacity-90" style="backdrop-filter: blur(46px);">
                         <span class="mb-3 inline-block text-sm {{ config('laravel-welcome-page.text_color_secondary') }} font-semibold uppercase tracking-px leading-snug">
-                            {{ config('spark.billables.user.plans.2.name') }}
+                            {{ __(config('spark.billables.user.plans.2.name')) }}
                         </span>
                         <p class="mb-6 text-gray-500 font-medium leading-relaxed">
-                            {{ config('spark.billables.user.plans.2.short_description') }}
+                            {{ __(config('spark.billables.user.plans.2.short_description')) }}
                         </p>
                         <h3 class="mb-12 text-4xl text-gray-900 font-bold leading-tight">
                             <span>${{ config('spark.billables.user.plans.2.monthly_price') }}</span>
