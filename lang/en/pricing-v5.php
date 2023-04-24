@@ -6,6 +6,7 @@ return [
     'text' => 'text',
 
     'card_0_free' => 'card_0_free',
+    'card_0_subfree' => 'card_0_subfree',
     'card_0_per' => 'card_0_per',
     'card_0_subper' => 'card_0_subper',
     'card_0_button_text' => 'card_0_button_text',

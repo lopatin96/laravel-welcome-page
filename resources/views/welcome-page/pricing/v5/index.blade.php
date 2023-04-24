@@ -19,7 +19,7 @@
                             {{ __('laravel-welcome-page::pricing-v5.card_0_free') }}
                         </span>
                         <p class="mb-6 text-gray-500 font-medium leading-relaxed">
-                            {{ config('spark.billables.user.plans.0.short_description') }}
+                            {{ __('laravel-welcome-page::pricing-v5.card_0_subfree') }}
                         </p>
                         <h3 class="mb-1 text-4xl text-gray-900 font-bold leading-tight">
                             <span>$0</span>
