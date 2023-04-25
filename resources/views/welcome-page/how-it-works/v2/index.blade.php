@@ -33,7 +33,7 @@
                             {{ __('laravel-welcome-page::how-it-works-v2.step_1_title') }}
                         </h3>
                         <p class="text-gray-600 font-medium leading-relaxed">
-                            {{ __('laravel-welcome-page::how-it-works-v2.step_1_text') }}
+                            {!! __('laravel-welcome-page::how-it-works-v2.step_1_text') !!}
                         </p>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                             {{ __('laravel-welcome-page::how-it-works-v2.step_2_title') }}
                         </h3>
                         <p class="text-gray-600 font-medium leading-relaxed">
-                            {{ __('laravel-welcome-page::how-it-works-v2.step_2_text') }}
+                            {!! __('laravel-welcome-page::how-it-works-v2.step_2_text') !!}
                         </p>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                             {{ __('laravel-welcome-page::how-it-works-v2.step_3_title') }}
                         </h3>
                         <p class="text-gray-600 font-medium leading-relaxed">
-                            {{ __('laravel-welcome-page::how-it-works-v2.step_3_text') }}
+                            {!! __('laravel-welcome-page::how-it-works-v2.step_3_text') !!}
                         </p>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                             {{ __('laravel-welcome-page::how-it-works-v2.step_4_title') }}
                         </h3>
                         <p class="text-gray-600 font-medium leading-relaxed">
-                            {{ __('laravel-welcome-page::how-it-works-v2.step_4_text') }}
+                            {!! __('laravel-welcome-page::how-it-works-v2.step_4_text') !!}
                         </p>
                     </div>
                 </div>
