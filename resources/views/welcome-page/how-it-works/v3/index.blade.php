@@ -3,7 +3,7 @@
     class="pt-24 pb-32 bg-white overflow-hidden"
 >
     <div class="container px-4 mx-auto">
-        <h2 class="mb-28 text-6xl md:text-7xl font-bold font-heading tracking-px-n leading-tight md:max-w-lg">
+        <h2 class="mb-28 text-6xl md:text-7xl font-bold font-heading tracking-px-n leading-tight md:max-w-3lg">
             {{ __('laravel-welcome-page::how-it-works-v3.title') }}
         </h2>
         <div class="flex flex-wrap -m-8">
