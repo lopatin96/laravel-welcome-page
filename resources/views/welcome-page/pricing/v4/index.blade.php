@@ -15,7 +15,7 @@
                                 {{ __(config('spark.billables.user.plans.0.name')) }}
                             </span>
                             <h3 class="mb-6 text-4xl text-gray-900 font-bold leading-none">
-                                ${{ config('spark.billables.user.plans.0.monthly_price') }}{{ __('laravel-welcome-page::pricing-v4.card_1_per') }}
+                                ${{ config('spark.billables.user.plans.0.monthly_price') }}<span class="opacity-50">{{ __('laravel-welcome-page::pricing-v4.card_1_per') }}</span>
                             </h3>
                             <p class="mb-9 text-gray-600 font-medium leading-relaxed">
                                 {{ __(config('spark.billables.user.plans.0.short_description')) }}
@@ -54,7 +54,7 @@
                                 {{ __(config('spark.billables.user.plans.1.name')) }}
                             </span>
                             <h3 class="mb-6 text-4xl text-gray-900 font-bold leading-none">
-                                ${{ config('spark.billables.user.plans.1.monthly_price') }}{{ __('laravel-welcome-page::pricing-v4.card_2_per') }}
+                                ${{ config('spark.billables.user.plans.1.monthly_price') }}<span class="opacity-50">{{ __('laravel-welcome-page::pricing-v4.card_2_per') }}</span>
                             </h3>
                             <p class="mb-9 text-gray-600 font-medium leading-relaxed">
                                 {{ __(config('spark.billables.user.plans.1.short_description')) }}
@@ -88,7 +88,7 @@
                                 {{ __(config('spark.billables.user.plans.2.name')) }}
                             </span>
                             <h3 class="mb-6 text-4xl text-gray-900 font-bold leading-none">
-                                ${{ config('spark.billables.user.plans.2.monthly_price') }}{{ __('laravel-welcome-page::pricing-v4.card_3_per') }}
+                                ${{ config('spark.billables.user.plans.2.monthly_price') }}<span class="opacity-50">{{ __('laravel-welcome-page::pricing-v4.card_3_per') }}</span>
                             </h3>
                             <p class="mb-9 text-gray-600 font-medium leading-relaxed">
                                 {{ __(config('spark.billables.user.plans.2.short_description')) }}
