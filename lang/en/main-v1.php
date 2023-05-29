@@ -4,7 +4,7 @@ return [
 
     'upper_title' => 'upper_title',
     'title' => 'title',
-    'for' => 'for',
+    'subtitle' => 'subtitle',
 
     'typed_1' => 'typed_1',
     'typed_2' => 'typed_2',
