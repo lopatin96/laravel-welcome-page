@@ -35,7 +35,7 @@
                     </span>
                 </h1>
                 <p class="mb-10 md:mb-24 text-lg lg:max-w-md selection:bg-black selection:text-white">
-                    {{ __('laravel-welcome-page::main-v1.text') }}
+                    {!! __('laravel-welcome-page::main-v1.text') !!}
                 </p>
                 <div class="flex flex-col sm:flex-row space-y-5 sm:space-y-0 items-center">
                     <a
