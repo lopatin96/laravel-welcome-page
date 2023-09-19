@@ -14,9 +14,12 @@
                             <span class="mb-9 inline-block text-sm {{ config('laravel-welcome-page.text_color_secondary') }} font-semibold uppercase tracking-px leading-snug">
                                 {{ __(config('spark.billables.user.plans.0.name')) }}
                             </span>
-                            <h3 class="mb-6 text-4xl text-gray-900 font-bold leading-none">
+                            <h3 class="mb-2 text-4xl text-gray-900 font-bold leading-none">
                                 ${{ config('spark.billables.user.plans.0.monthly_price') }}<span class="opacity-50">{{ __('laravel-welcome-page::pricing-v4.card_1_per') }}</span>
                             </h3>
+                            <p class="mb-6 text-xs text-gray-400 mt-1">
+                                {{ __('laravel-welcome-page::pricing-v4.cards_subbilled') }}
+                            </p>
                             <p class="mb-9 text-gray-600 font-medium leading-relaxed">
                                 {{ __(config('spark.billables.user.plans.0.short_description')) }}
                             </p>
@@ -53,9 +56,12 @@
                             <span class="mb-9 inline-block text-sm {{ config('laravel-welcome-page.text_color_primary') }} font-semibold uppercase tracking-px leading-snug">
                                 {{ __(config('spark.billables.user.plans.1.name')) }}
                             </span>
-                            <h3 class="mb-6 text-4xl text-gray-900 font-bold leading-none">
+                            <h3 class="mb-2 text-4xl text-gray-900 font-bold leading-none">
                                 ${{ config('spark.billables.user.plans.1.monthly_price') }}<span class="opacity-50">{{ __('laravel-welcome-page::pricing-v4.card_2_per') }}</span>
                             </h3>
+                            <p class="mb-6 text-xs text-gray-400 mt-1">
+                                {{ __('laravel-welcome-page::pricing-v4.cards_subbilled') }}
+                            </p>
                             <p class="mb-9 text-gray-600 font-medium leading-relaxed">
                                 {{ __(config('spark.billables.user.plans.1.short_description')) }}
                             </p>
@@ -87,9 +93,12 @@
                             <span class="mb-9 inline-block text-sm {{ config('laravel-welcome-page.text_color_secondary') }} font-semibold uppercase tracking-px leading-snug">
                                 {{ __(config('spark.billables.user.plans.2.name')) }}
                             </span>
-                            <h3 class="mb-6 text-4xl text-gray-900 font-bold leading-none">
+                            <h3 class="mb-2 text-4xl text-gray-900 font-bold leading-none">
                                 ${{ config('spark.billables.user.plans.2.monthly_price') }}<span class="opacity-50">{{ __('laravel-welcome-page::pricing-v4.card_3_per') }}</span>
                             </h3>
+                            <p class="mb-6 text-xs text-gray-400 mt-1">
+                                {{ __('laravel-welcome-page::pricing-v4.cards_subbilled') }}
+                            </p>
                             <p class="mb-9 text-gray-600 font-medium leading-relaxed">
                                 {{ __(config('spark.billables.user.plans.2.short_description')) }}
                             </p>
