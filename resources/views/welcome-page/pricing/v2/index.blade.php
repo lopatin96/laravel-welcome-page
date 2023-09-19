@@ -42,8 +42,11 @@
                             <p class="text-gray-900 font-bold text-3xl">
                                 ${{ config('spark.billables.user.plans.0.monthly_price') }}{{ __('laravel-welcome-page::pricing-v2.card_1_per') }}
                             </p>
-                            <p class="mb-6 text-base text-gray-500 font-semibold leading-normal">
+                            <p class="text-base text-gray-500 font-semibold leading-normal">
                                 {{ __('laravel-welcome-page::pricing-v2.card_1_title') }}
+                            </p>
+                            <p class="mb-6 text-xs text-gray-400 mt-1">
+                                {{ __('laravel-welcome-page::pricing-v2.cards_subbilled') }}
                             </p>
                             <div class="md:inline-block">
                                 <a href="{{ config('laravel-welcome-page.pricing_button_path') }}">
@@ -86,8 +89,11 @@
                             <p class="text-gray-900 font-bold text-3xl">
                                 ${{ config('spark.billables.user.plans.1.monthly_price') }}{{ __('laravel-welcome-page::pricing-v2.card_2_per') }}
                             </p>
-                            <p class="mb-6 text-base text-gray-500 font-semibold leading-normal">
+                            <p class="text-base text-gray-500 font-semibold leading-normal">
                                 {{ __('laravel-welcome-page::pricing-v2.card_2_title') }}
+                            </p>
+                            <p class="mb-6 text-xs text-gray-400 mt-1">
+                                {{ __('laravel-welcome-page::pricing-v2.cards_subbilled') }}
                             </p>
                             <div class="md:inline-block">
                                 <a href="{{ config('laravel-welcome-page.pricing_button_path') }}">

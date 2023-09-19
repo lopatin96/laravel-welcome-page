@@ -15,4 +15,6 @@ return [
     'card_2_per' => 'card_2_per',
     'card_2_button_text' => 'card_2_button_text',
 
+    'cards_subbilled' => 'cards_subbilled',
+
 ];
