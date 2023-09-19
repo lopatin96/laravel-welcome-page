@@ -10,7 +10,7 @@
             {{ __('laravel-welcome-page::pricing-v2.text') }}
         </p>
         <div class="md:max-w-4xl mx-auto">
-            <div class="flex flex-wrap -m-5">
+            <div class="flex flex-wrap items-center -m-5">
                 <div class="w-full md:w-1/2 p-5">
                     <div class="bg-white bg-opacity-90 border border-gray-100 rounded-3xl shadow-2xl" style="backdrop-filter: blur(46px);">
                         <div class="border-b border-gray-100">
