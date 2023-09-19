@@ -51,7 +51,7 @@
                                     {{ __('laravel-welcome-page::pricing-v1.card_title') }}
                                 </p>
                             </div>
-                            <div class="w-full sm:w-1/2 p-8">
+                            <div class="w-full sm:w-1/2 p-8 pb-3">
                                 <div class="sm:max-w-max ml-auto">
                                     <p class="font-bold">
                                         <span class="text-4xl leading-tight tracking-px-n">
@@ -64,6 +64,11 @@
                                     <p class="font-medium text-gray-500 leading-relaxed">
                                         {{ __('laravel-welcome-page::pricing-v1.card_billed') }}
                                     </p>
+                                    <div>
+                                        <p class="text-xs text-gray-400 mt-1">
+                                            {{ __('laravel-welcome-page::pricing-v1.card_subbilled') }}
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

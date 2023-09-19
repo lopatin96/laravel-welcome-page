@@ -11,6 +11,7 @@ return [
     'card_title' => 'card_title',
     'card_per' => 'card_per',
     'card_billed' => 'card_billed',
+    'card_subbilled' => 'card_subbilled',
     'card_button_text' => 'card_button_text',
 
 ];
