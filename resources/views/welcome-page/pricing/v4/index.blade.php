@@ -1,6 +1,6 @@
 <section
     @if($id) id="{{ $id }}" @endif
-    class="pt-24 pb-28 bg-blueGray-50 overflow-hidden"
+    class="pt-24 pb-28 bg-gray-50"
 >
     <div class="container px-4 mx-auto">
         <h2 class="mb-24 text-6xl md:text-7xl font-bold font-heading text-center tracking-px-n leading-tight md:max-w-xl mx-auto">
