@@ -1,6 +1,6 @@
 <section
     @if($id) id="{{ $id }}" @endif
-    class="relative py-36 bg-gray-50 overflow-hidden lg:h-screen"
+    class="relative py-36 bg-gray-50"
 >
     <span
         style="background-image: radial-gradient(50% 50% at 50% 50%, {{ config('laravel-welcome-page.color_secondary_hex') }} 0, hsla(0, 0%, 100%, 0) 100%);"

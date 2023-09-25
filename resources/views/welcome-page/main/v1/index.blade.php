@@ -4,7 +4,7 @@
 >
     <div class="relative overflow-hidden max-w-6xl h-full mx-auto">
         <div class="flex items-center justify-center h-full">
-            <div class="w-full lg:w-3/4 p-8 mb-20">
+            <div class="w-full lg:w-3/4 p-8 lg:mb-20">
                 <div class="inline-block mb-6 px-2 py-1 font-semibold opacity-90 hover:opacity-75 {{ config('laravel-welcome-page.bg_color_secondary') }} rounded-full transition ease-in-out duration-700">
                     <span class="try-now flex flex-wrap items-center -m-1 text-sm cursor-pointer">
                         <a
