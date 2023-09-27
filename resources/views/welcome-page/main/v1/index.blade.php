@@ -70,4 +70,7 @@
             </div>
         </div>
     </div>
+    @if (config('laravel-welcome-page.main-v1_scroll_bottom_button_src'))
+        @include('laravel-welcome-page::welcome-page.main.v1.scroll-bottom-block')
+    @endif
 </section>

@@ -71,12 +71,21 @@ return [
         'main-v1_primary_button_path' => '/register',
         'main-v1_secondary_button_path' => '/register',
 
-        'main-v1_lottie_src' => '<images/...json>',
+        'main-v1_lottie_src' => '<animations/...json>',
         'main-v1_lottie_speed' => 0.75,
         'main-v1_lottie_width' => 550,
         'main-v1_lottie_height' => 550,
         'main-v1_lottie_top' => -200,
         'main-v1_lottie_right' => 10,
+
+        'main-v1_scroll_bottom_button_path' => '#how-it-works',
+        'main-v1_scroll_bottom_button_src' => '<animations/...json>',
+        'main-v1_scroll_bottom_button_speed' => 0.65,
+        'main-v1_scroll_bottom_button_width' => 200,
+        'main-v1_scroll_bottom_button_height' => 200,
+        'main-v1_scroll_bottom_button_right' => 0,
+        'main-v1_scroll_bottom_button_bottom' => -30,
+        'main-v1_scroll_bottom_button_hidden_during_ms' => 5000,
 
     // how-it-works
         // v1
