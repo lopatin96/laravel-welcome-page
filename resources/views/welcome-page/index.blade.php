@@ -2,8 +2,8 @@
     <div
         x-data="{ lgHScreen: window.innerWidth / window.innerHeight < 2.2 }"
         @resize.window="lgHScreen = window.innerWidth / window.innerHeight < 2.2"
-        class="flex flex-col bg-gradient-to-r {{ config('laravel-welcome-page.gradient_from') }} {{ config('laravel-welcome-page.gradient_to') }} animate-gradient-x"
-        :class="lgHScreen ? 'lg:h-screen' : ''"
+        class="flex flex-col bg-gradient-to-r {{ config('laravel-welcome-page.gradient_from') }} {{ config('laravel-welcome-page.gradient_to') }} animate-gradient-x lg:h-screen"
+        :class="{'lg:h-screen': lgHScreen}"
     >
         @include(config('laravel-welcome-page.header_path'), ['showLinks' => true])
         @include('laravel-welcome-page::welcome-page.main.' . config('laravel-welcome-page.sections.main.variant') . '.index')
