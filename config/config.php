@@ -84,7 +84,7 @@ return [
         'main-v1_scroll_bottom_button_width' => 200,
         'main-v1_scroll_bottom_button_height' => 200,
         'main-v1_scroll_bottom_button_right' => 0,
-        'main-v1_scroll_bottom_button_bottom' => -30,
+        'main-v1_scroll_bottom_button_bottom' => 0,
         'main-v1_scroll_bottom_button_hidden_during_ms' => 5000,
 
     // how-it-works
