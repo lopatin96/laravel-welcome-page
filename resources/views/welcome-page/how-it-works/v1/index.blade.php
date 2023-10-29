@@ -3,11 +3,11 @@
     class="py-24 bg-white"
 >
     <div class="container px-4 max-w-7xl mx-auto">
-        <div class="text-center space-y-2 mb-20">
+        <div class="text-center space-y-3 mb-20">
             <h2 class="text-5xl sm:text-6xl md:text-7xl font-bold font-heading tracking-px-n leading-none">
                 {{ __('laravel-welcome-page::how-it-works-v1.title') }}
             </h2>
-            <p class="text-gray-400 font-medium text-xl leading-relaxed">
+            <p class="text-gray-400 text-xl leading-relaxed">
                 {{ __('laravel-welcome-page::how-it-works-v1.subtitle') }}
             </p>
         </div>
@@ -18,7 +18,7 @@
                         <h3 class="mb-3 text-4xl font-bold font-heading leading-normal">
                             {{ __('laravel-welcome-page::how-it-works-v1.step_1_title') }}
                         </h3>
-                        <p class="mb-10 text-gray-400 font-medium leading-relaxed">
+                        <p class="mb-10 text-gray-400 leading-relaxed">
                             {!! __('laravel-welcome-page::how-it-works-v1.step_1_text') !!}
                         </p>
                     </div>
@@ -36,7 +36,7 @@
                         <h3 class="mb-3 text-4xl font-bold font-heading leading-normal">
                             {{ __('laravel-welcome-page::how-it-works-v1.step_2_title') }}
                         </h3>
-                        <p class="mb-10 text-gray-400 font-medium leading-relaxed">
+                        <p class="mb-10 text-gray-400 leading-relaxed">
                             {!! __('laravel-welcome-page::how-it-works-v1.step_2_text') !!}
                         </p>
                     </div>
@@ -54,7 +54,7 @@
                         <h3 class="mb-3 text-4xl font-bold font-heading leading-normal">
                             {{ __('laravel-welcome-page::how-it-works-v1.step_3_title') }}
                         </h3>
-                        <p class="mb-10 text-gray-400 font-medium leading-relaxed">
+                        <p class="mb-10 text-gray-400 leading-relaxed">
                             {!! __('laravel-welcome-page::how-it-works-v1.step_3_text') !!}
                         </p>
                     </div>
