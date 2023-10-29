@@ -13,7 +13,7 @@ class="relative py-32 bg-white"
                 <h2 class="mb-6 text-6xl md:text-7xl font-bold font-heading tracking-px-n leading-tight">
                     {{ __('laravel-welcome-page::features-v1.title') }}
                 </h2>
-                <p class="font-sans text-lg text-gray-500 leading-relaxed md:max-w-lg">
+                <p class="font-sans text-2xl text-gray-400 leading-relaxed md:max-w-lg">
                     {!! __('laravel-welcome-page::features-v1.text') !!}
                 </p>
             </div>
